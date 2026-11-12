@@ -1,0 +1,165 @@
+1
+00:00:00,110 --> 00:00:05,455
+When analysis, source material, and
+review decisions live in different places,
+
+2
+00:00:05,495 --> 00:00:09,610
+teams can lose track of
+why a recommendation was made.
+
+3
+00:00:09,650 --> 00:00:13,550
+The challenge isn't
+just generating more information.
+
+4
+00:00:13,590 --> 00:00:18,725
+It's making that information usable:
+what should someone inspect, what supports
+
+5
+00:00:18,765 --> 00:00:22,970
+the recommendation, and what needs a human decision?
+
+6
+00:00:23,010 --> 00:00:28,725
+I built Video Insight Bundler to
+explore that workflow using video analysis.
+
+7
+00:00:28,765 --> 00:00:33,640
+My central design choice was to
+keep recorded signals, source references, and
+
+8
+00:00:33,680 --> 00:00:37,380
+human decisions separate, but connected.
+
+9
+00:00:37,420 --> 00:00:39,510
+Video is the example here;
+
+10
+00:00:39,550 --> 00:00:45,205
+the broader design problem is connecting
+evidence to decisions people can inspect.
+
+11
+00:00:45,245 --> 00:00:51,105
+This demonstration uses saved
+analysis, with original media excluded.
+
+12
+00:00:51,145 --> 00:00:56,560
+Here, we're reviewing the opening
+fifteen seconds of one example video.
+
+13
+00:00:56,600 --> 00:01:02,855
+The timeline locates the segment, and
+its context shows what the analysis recorded.
+
+14
+00:01:02,895 --> 00:01:07,285
+I'll compare those signals with
+the linked recommendation: inspect whether the
+
+15
+00:01:07,325 --> 00:01:11,430
+opening needs a clearer
+transition or a pacing review.
+
+16
+00:01:11,470 --> 00:01:15,765
+These signals guide inspection, not conclusions.
+
+17
+00:01:15,805 --> 00:01:20,235
+Before editing, I'd check the original
+media and decide whether the opening's
+
+18
+00:01:20,275 --> 00:01:25,465
+structure is intentional. The workflow lets
+me document that question and its
+
+19
+00:01:25,505 --> 00:01:31,455
+next step. For this example, I
+leave the editorial decision open and record
+
+20
+00:01:31,495 --> 00:01:36,785
+what I checked, the uncertainty,
+and what to inspect next.
+
+21
+00:01:36,825 --> 00:01:40,930
+Now the next reviewer
+has an explicit starting point.
+
+22
+00:01:40,970 --> 00:01:44,200
+This static version requires an external save;
+
+23
+00:01:44,240 --> 00:01:50,050
+notes don't autosave. I can export
+the note and checklist together, keeping the
+
+24
+00:01:50,090 --> 00:01:53,100
+review record alongside the package.
+
+25
+00:01:53,140 --> 00:01:57,975
+That makes the handoff inspectable,
+even while the editorial decision remains
+
+26
+00:01:58,015 --> 00:02:03,790
+open. Video is the example,
+not the limit of the approach.
+
+27
+00:02:03,830 --> 00:02:08,190
+A similar workflow could be
+designed around research documents, engineering
+
+28
+00:02:08,230 --> 00:02:11,720
+evidence, or internal review processes.
+
+29
+00:02:11,760 --> 00:02:16,980
+For a client, I'd start with
+the decision, the available inputs, and the
+
+30
+00:02:17,020 --> 00:02:21,915
+constraints, then determine what to build,
+how it should connect to existing
+
+31
+00:02:21,955 --> 00:02:26,300
+tools, and how we'd evaluate whether it is useful.
+
+32
+00:02:26,340 --> 00:02:30,590
+If your team has scattered analysis,
+or an idea that needs to become
+
+33
+00:02:30,630 --> 00:02:36,305
+a testable system, visit Correspondence matrices
+dot com to request a twenty-minute
+
+34
+00:02:36,345 --> 00:02:41,775
+fit call. We'll discuss your goals,
+constraints, and the decision you need to
+
+35
+00:02:41,815 --> 00:02:45,795
+make, and identify a practical next step.

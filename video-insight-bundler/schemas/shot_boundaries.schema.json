@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "shot_boundaries.schema.json",
+  "title": "Shot Boundaries",
+  "type": "object",
+  "required": ["analysis_status", "method", "sampling_rate", "detected_boundaries", "boundary_confidence", "visual_change_score", "threshold_used", "neighboring_frame_paths", "limitations"],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "sampling_rate": {"type": "object"},
+    "detected_boundaries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["boundary_id", "timestamp_sec", "boundary_confidence", "visual_change_score", "threshold_used", "neighboring_frame_paths"]
+      }
+    },
+    "boundary_confidence": {"type": "object"},
+    "visual_change_score": {"type": "object"},
+    "threshold_used": {"type": "number"},
+    "neighboring_frame_paths": {"type": "array", "items": {"type": "string"}},
+    "sampled_frame_features": {"type": "array"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

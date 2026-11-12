@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "artifact_integrity.schema.json",
+  "title": "Artifact Integrity",
+  "type": "object",
+  "required": ["integrity_score", "missing_artifacts", "orphan_artifacts", "unresolved_references", "schema_validation_summary", "validation_summary", "limitations"],
+  "properties": {
+    "validation_status": {"type": "string"},
+    "integrity_score": {"type": "number"},
+    "missing_artifacts": {"type": "array"},
+    "orphan_artifacts": {"type": "object"},
+    "stale_artifacts": {"type": "array"},
+    "unresolved_references": {"type": "array"},
+    "dashboard_gaps": {"type": "object"},
+    "schema_validation_summary": {"type": "object"},
+    "validation_summary": {"type": "object"},
+    "limitations": {"type": "array"}
+  },
+  "additionalProperties": true
+}

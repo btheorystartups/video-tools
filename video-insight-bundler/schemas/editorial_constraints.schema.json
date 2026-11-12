@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "editorial_constraints.schema.json",
+  "title": "Editorial Constraints",
+  "type": "object",
+  "required": ["constraint_profile", "constraints", "summary"],
+  "properties": {
+    "constraint_profile": {"type": "string"},
+    "constraints": {"type": "array", "items": {"type": "object", "required": ["constraint_id", "status", "pressure_score", "affected_artifacts", "evidence"]}},
+    "summary": {"type": "object"}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "migration_registry.schema.json",
+  "title": "Migration Registry",
+  "type": "object",
+  "required": ["migration_registry_version", "artifact_versions", "schema_versions", "compatibility_notes", "migration_placeholders", "deprecated_fields", "future_migration_hooks", "limitations"],
+  "properties": {
+    "validation_status": {"type": "string"},
+    "migration_registry_version": {"type": "string"},
+    "artifact_versions": {"type": "object"},
+    "schema_versions": {"type": "object"},
+    "compatibility_notes": {"type": "object"},
+    "migration_placeholders": {"type": "array"},
+    "deprecated_fields": {"type": "array"},
+    "future_migration_hooks": {"type": "array"},
+    "limitations": {"type": "array"}
+  },
+  "additionalProperties": true
+}

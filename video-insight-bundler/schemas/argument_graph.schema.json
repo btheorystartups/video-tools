@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "argument_graph.schema.json",
+  "title": "Argument Graph",
+  "type": "object",
+  "required": ["analysis_status", "method", "nodes", "edges", "argument_chains", "unresolved_chains", "fragmented_chains", "recovered_chains", "contradiction_clusters", "argument_completeness_score", "argument_fragmentation_score", "limitations"],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "nodes": {"type": "array", "items": {"type": "object", "required": ["node_id", "segment_id", "node_type", "roles"]}},
+    "edges": {"type": "array", "items": {"type": "object", "required": ["edge_id", "from_node_id", "to_node_id", "edge_type"]}},
+    "argument_chains": {"type": "array", "items": {"type": "object", "required": ["chain_id", "root_node_id", "node_ids", "chain_status"]}},
+    "unresolved_chains": {"type": "array", "items": {"type": "object"}},
+    "fragmented_chains": {"type": "array", "items": {"type": "object"}},
+    "recovered_chains": {"type": "array", "items": {"type": "object"}},
+    "contradiction_clusters": {"type": "array", "items": {"type": "object"}},
+    "argument_completeness_score": {"type": "number"},
+    "argument_fragmentation_score": {"type": "number"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

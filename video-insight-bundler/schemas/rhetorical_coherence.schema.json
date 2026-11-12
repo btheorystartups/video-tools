@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rhetorical Coherence",
+  "type": "object",
+  "required": [
+    "analysis_status",
+    "method",
+    "segment_modes",
+    "mode_transitions",
+    "unresolved_questions",
+    "claims_without_examples",
+    "examples_without_takeaways",
+    "abstract_concrete_balance",
+    "setup_payoff_links",
+    "rhetorical_coherence_score",
+    "rhetorical_gap_explanations",
+    "limitations"
+  ],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "segment_modes": {"type": "array", "items": {"type": "object"}},
+    "mode_transitions": {"type": "array", "items": {"type": "object"}},
+    "unresolved_questions": {"type": "array", "items": {"type": "object"}},
+    "claims_without_examples": {"type": "array", "items": {"type": "object"}},
+    "examples_without_takeaways": {"type": "array", "items": {"type": "object"}},
+    "abstract_concrete_balance": {"type": "object"},
+    "setup_payoff_links": {"type": "array", "items": {"type": "object"}},
+    "rhetorical_coherence_score": {"type": "number"},
+    "rhetorical_gap_explanations": {"type": "array", "items": {"type": "object"}},
+    "source_rhetorical_balance_score": {"type": ["number", "null"]},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  }
+}

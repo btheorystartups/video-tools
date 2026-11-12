@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "revision_graph.schema.json",
+  "title": "Revision Graph",
+  "type": "object",
+  "required": ["revision_graph_version", "status", "root_revision_id", "revision_states", "revision_candidates", "revision_deltas", "editorial_constraints", "release_readiness", "mutation_safety_contract", "branch_comparison"],
+  "properties": {
+    "revision_graph_version": {"type": "string"},
+    "status": {"type": "string", "enum": ["complete", "skipped"]},
+    "root_revision_id": {"type": "string"},
+    "revision_states": {"type": "array", "items": {"type": "object", "required": ["revision_id", "revision_status", "revision_type", "root_revision_id"]}},
+    "revision_candidates": {"type": "array", "items": {"type": "object", "required": ["candidate_id", "proposal_status", "simulated_revision_id", "mutation_safety_class"]}},
+    "revision_deltas": {"type": "array", "items": {"type": "object", "required": ["delta_id", "from_revision_id", "to_revision_id"]}},
+    "editorial_constraints": {"type": "object"},
+    "release_readiness": {"type": "object"},
+    "mutation_safety_contract": {"type": "object"},
+    "branch_comparison": {"type": "object"}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "number": 1,
+    "title": "Establish the client problem",
+    "narration": "When analysis, source material, and review decisions live in different places, teams can lose track of why a recommendation was made. The challenge isn't just generating more information. It's making that information usable: what should someone inspect, what supports the recommendation, and what needs a human decision?",
+    "character_start": 0,
+    "character_end": 320,
+    "start_seconds": 0,
+    "end_seconds": 23.009999999999998
+  },
+  {
+    "number": 2,
+    "title": "Explain the design choice",
+    "narration": "I built Video Insight Bundler to explore that workflow using video analysis. My central design choice was to keep recorded signals, source references, and human decisions separate, but connected. Video is the example here; the broader design problem is connecting evidence to decisions people can inspect. This demonstration uses saved analysis, with original media excluded.",
+    "character_start": 322,
+    "character_end": 697,
+    "start_seconds": 23.009999999999998,
+    "end_seconds": 51.144999999999996
+  },
+  {
+    "number": 3,
+    "title": "Follow one example from evidence to recommendation",
+    "narration": "Here, we're reviewing the opening fifteen seconds of one example video. The timeline locates the segment, and its context shows what the analysis recorded. I'll compare those signals with the linked recommendation: inspect whether the opening needs a clearer transition or a pacing review. These signals guide inspection, not conclusions. Before editing, I'd check the original media and decide whether the opening's structure is intentional. The workflow lets me document that question and its next step.",
+    "character_start": 699,
+    "character_end": 1204,
+    "start_seconds": 51.144999999999996,
+    "end_seconds": 87.27
+  },
+  {
+    "number": 4,
+    "title": "Show the useful review record",
+    "narration": "For this example, I leave the editorial decision open and record what I checked, the uncertainty, and what to inspect next. Now the next reviewer has an explicit starting point. This static version requires an external save; notes don't autosave. I can export the note and checklist together, keeping the review record alongside the package. That makes the handoff inspectable, even while the editorial decision remains open.",
+    "character_start": 1206,
+    "character_end": 1631,
+    "start_seconds": 87.27,
+    "end_seconds": 119.405
+  },
+  {
+    "number": 5,
+    "title": "Connect the approach to client needs",
+    "narration": "Video is the example, not the limit of the approach. A similar workflow could be designed around research documents, engineering evidence, or internal review processes. For a client, I'd start with the decision, the available inputs, and the constraints, then determine what to build, how it should connect to existing tools, and how we'd evaluate whether it is useful.",
+    "character_start": 1633,
+    "character_end": 2002,
+    "start_seconds": 119.405,
+    "end_seconds": 146.34
+  },
+  {
+    "number": 6,
+    "title": "Invite a focused consulting conversation",
+    "narration": "If your team has scattered analysis, or an idea that needs to become a testable system, visit Correspondence matrices dot com to request a twenty-minute fit call. We'll discuss your goals, constraints, and the decision you need to make, and identify a practical next step.",
+    "character_start": 2004,
+    "character_end": 2276,
+    "start_seconds": 146.34,
+    "end_seconds": 165.895
+  }
+]

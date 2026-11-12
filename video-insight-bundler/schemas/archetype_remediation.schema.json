@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "archetype_remediation.schema.json",
+  "title": "Archetype Remediation",
+  "type": "object",
+  "required": ["analysis_status", "method", "archetype_remediation_id", "archetype_remediations", "summary", "limitations"],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "archetype_remediation_id": {"type": "string"},
+    "archetype_remediations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["archetype_id", "archetype_label", "affected_videos", "recurring_evidence", "likely_editorial_risk", "suggested_review_action", "what_not_to_do", "mutation_safety", "evidence_refs"],
+        "properties": {
+          "archetype_id": {"type": "string"},
+          "archetype_label": {"type": "string"},
+          "affected_videos": {"type": "array", "items": {"type": "string"}},
+          "recurring_evidence": {"type": "array"},
+          "likely_editorial_risk": {"type": "string"},
+          "suggested_review_action": {"type": "string"},
+          "what_not_to_do": {"type": "string"},
+          "mutation_safety": {"type": "string"},
+          "evidence_refs": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "summary": {"type": "object"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

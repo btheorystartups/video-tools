@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "video_analysis_bundle.schema.json",
+  "title": "Video Insight Bundler Context Bundle",
+  "type": "object",
+  "required": [
+    "generated_at_utc",
+    "tool_version",
+    "source_video",
+    "source_video_sha256",
+    "analysis_profile_hash",
+    "media_metadata",
+    "transcript",
+    "audio_features",
+    "visual_sample_index",
+    "scene_segments",
+    "emotional_arc",
+    "persona_style_profile",
+    "teaching_style_profile",
+    "recommendations_markdown",
+    "warnings",
+    "limitations"
+  ],
+  "properties": {
+    "generated_at_utc": {"type": "string"},
+    "tool_version": {"type": "string"},
+    "source_video": {"type": "string"},
+    "source_video_sha256": {"type": "string"},
+    "analysis_profile_hash": {"type": "string"},
+    "media_metadata": {
+      "type": "object",
+      "required": ["source_path", "file_size_bytes", "sha256", "probe_status"]
+    },
+    "transcript": {
+      "type": "object",
+      "required": ["transcription_status", "text", "segments"]
+    },
+    "audio_features": {
+      "type": "object",
+      "required": ["analysis_status", "word_count", "limitations"]
+    },
+    "visual_sample_index": {
+      "type": "object",
+      "required": ["sampling_status", "sample_interval_sec", "samples"]
+    },
+    "scene_segments": {
+      "type": "object",
+      "required": ["segmentation_status", "method", "segment_count", "segments", "limitations"]
+    },
+    "emotional_arc": {
+      "type": "object",
+      "required": ["analysis_status", "model", "segments"]
+    },
+    "persona_style_profile": {
+      "type": "object",
+      "required": ["classification_status", "method", "top_categories"]
+    },
+    "teaching_style_profile": {
+      "type": "object",
+      "required": ["classification_status", "method", "top_categories"]
+    },
+    "recommendations_markdown": {"type": "string"},
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "severity", "message"]
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "analysis_profile": {"type": "object"}
+  },
+  "additionalProperties": true
+}

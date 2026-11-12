@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "discourse_state.schema.json",
+  "title": "Discourse State",
+  "type": "object",
+  "required": ["analysis_status", "method", "segment_discourse_states", "persistent_concepts", "concept_expiration", "unresolved_discourse_items", "discourse_transitions", "discourse_pressure_score", "discourse_continuity_score", "limitations"],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "segment_discourse_states": {"type": "array", "items": {"type": "object", "required": ["state_id", "segment_id", "entering_state", "exiting_state", "discourse_pressure_score", "discourse_continuity_score"]}},
+    "persistent_concepts": {"type": "array", "items": {"type": "object"}},
+    "concept_expiration": {"type": "array", "items": {"type": "object"}},
+    "unresolved_discourse_items": {"type": "array", "items": {"type": "object"}},
+    "discourse_transitions": {"type": "array", "items": {"type": "object", "required": ["transition_id", "from_segment_id", "to_segment_id"]}},
+    "discourse_pressure_score": {"type": "number"},
+    "discourse_continuity_score": {"type": "number"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

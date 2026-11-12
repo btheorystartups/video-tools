@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "narrative_memory.schema.json",
+  "title": "Narrative Memory",
+  "type": "object",
+  "required": ["analysis_status", "method", "memory_windows", "persistent_themes", "callback_references", "delayed_resolutions", "resurfacing_concepts", "thematic_persistence_score", "narrative_drift_score", "narrative_recovery_score", "limitations"],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "memory_windows": {"type": "object", "required": ["short", "medium", "long"]},
+    "persistent_themes": {"type": "array", "items": {"type": "object"}},
+    "callback_references": {"type": "array", "items": {"type": "object"}},
+    "delayed_resolutions": {"type": "array", "items": {"type": "object"}},
+    "resurfacing_concepts": {"type": "array", "items": {"type": "object"}},
+    "thematic_persistence_score": {"type": "number"},
+    "narrative_drift_score": {"type": "number"},
+    "narrative_recovery_score": {"type": "number"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

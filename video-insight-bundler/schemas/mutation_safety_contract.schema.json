@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "mutation_safety_contract.schema.json",
+  "title": "Mutation Safety Contract",
+  "type": "object",
+  "required": ["overall_status", "mutation_classes", "candidate_contracts", "global_forbidden_operations"],
+  "properties": {
+    "overall_status": {"type": "string"},
+    "mutation_classes": {"type": "array"},
+    "candidate_contracts": {"type": "array", "items": {"type": "object", "required": ["candidate_id", "mutation_safety_class", "forbidden_operations", "allowed_operations"]}},
+    "global_forbidden_operations": {"type": "array"}
+  },
+  "additionalProperties": true
+}

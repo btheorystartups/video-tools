@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "graph_consistency.schema.json",
+  "title": "Graph Consistency",
+  "type": "object",
+  "required": ["graph_integrity_score", "graph_counts", "orphan_nodes", "duplicate_nodes", "invalid_edges", "cycle_summary", "fragmentation_summary", "cross_graph_consistency", "limitations"],
+  "properties": {
+    "validation_status": {"type": "string"},
+    "graph_integrity_score": {"type": "number"},
+    "graph_counts": {"type": "object"},
+    "orphan_nodes": {"type": "array"},
+    "duplicate_nodes": {"type": "array"},
+    "invalid_edges": {"type": "array"},
+    "cycle_summary": {"type": "object"},
+    "fragmentation_summary": {"type": "object"},
+    "cross_graph_consistency": {"type": "object"},
+    "limitations": {"type": "array"}
+  },
+  "additionalProperties": true
+}

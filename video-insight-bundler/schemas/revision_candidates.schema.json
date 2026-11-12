@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "revision_candidates.schema.json",
+  "title": "Revision Candidates",
+  "type": "object",
+  "required": ["revision_candidates"],
+  "properties": {
+    "revision_candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["candidate_id", "parent_revision_id", "simulated_revision_id", "candidate_label", "proposal_status", "proposed_changes", "mutation_safety_class", "render_required", "reinsertion_required", "human_review_required"]
+      }
+    }
+  },
+  "additionalProperties": true
+}

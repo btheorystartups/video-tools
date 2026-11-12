@@ -1,0 +1,44 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Segoe UI,36,&H00FFFFFF,&H00FFFFFF,&H0023140C,&H0023140C,0,0,0,0,100,100,0,0,1,2,0,2,100,100,26,1
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.11,0:00:05.46,Default,,0,0,0,,When analysis, source material, and\Nreview decisions live in different places,
+Dialogue: 0,0:00:05.50,0:00:09.61,Default,,0,0,0,,teams can lose track of\Nwhy a recommendation was made.
+Dialogue: 0,0:00:09.65,0:00:13.55,Default,,0,0,0,,The challenge isn't\Njust generating more information.
+Dialogue: 0,0:00:13.59,0:00:18.73,Default,,0,0,0,,It's making that information usable:\Nwhat should someone inspect, what supports
+Dialogue: 0,0:00:18.77,0:00:22.97,Default,,0,0,0,,the recommendation, and what needs a human decision?
+Dialogue: 0,0:00:23.01,0:00:28.73,Default,,0,0,0,,I built Video Insight Bundler to\Nexplore that workflow using video analysis.
+Dialogue: 0,0:00:28.77,0:00:33.64,Default,,0,0,0,,My central design choice was to\Nkeep recorded signals, source references, and
+Dialogue: 0,0:00:33.68,0:00:37.38,Default,,0,0,0,,human decisions separate, but connected.
+Dialogue: 0,0:00:37.42,0:00:39.51,Default,,0,0,0,,Video is the example here;
+Dialogue: 0,0:00:39.55,0:00:45.20,Default,,0,0,0,,the broader design problem is connecting\Nevidence to decisions people can inspect.
+Dialogue: 0,0:00:45.24,0:00:51.10,Default,,0,0,0,,This demonstration uses saved\Nanalysis, with original media excluded.
+Dialogue: 0,0:00:51.15,0:00:56.56,Default,,0,0,0,,Here, we're reviewing the opening\Nfifteen seconds of one example video.
+Dialogue: 0,0:00:56.60,0:01:02.85,Default,,0,0,0,,The timeline locates the segment, and\Nits context shows what the analysis recorded.
+Dialogue: 0,0:01:02.90,0:01:07.28,Default,,0,0,0,,I'll compare those signals with\Nthe linked recommendation: inspect whether the
+Dialogue: 0,0:01:07.33,0:01:11.43,Default,,0,0,0,,opening needs a clearer\Ntransition or a pacing review.
+Dialogue: 0,0:01:11.47,0:01:15.77,Default,,0,0,0,,These signals guide inspection, not conclusions.
+Dialogue: 0,0:01:15.81,0:01:20.23,Default,,0,0,0,,Before editing, I'd check the original\Nmedia and decide whether the opening's
+Dialogue: 0,0:01:20.28,0:01:25.47,Default,,0,0,0,,structure is intentional. The workflow lets\Nme document that question and its
+Dialogue: 0,0:01:25.50,0:01:31.45,Default,,0,0,0,,next step. For this example, I\Nleave the editorial decision open and record
+Dialogue: 0,0:01:31.50,0:01:36.78,Default,,0,0,0,,what I checked, the uncertainty,\Nand what to inspect next.
+Dialogue: 0,0:01:36.83,0:01:40.93,Default,,0,0,0,,Now the next reviewer\Nhas an explicit starting point.
+Dialogue: 0,0:01:40.97,0:01:44.20,Default,,0,0,0,,This static version requires an external save;
+Dialogue: 0,0:01:44.24,0:01:50.05,Default,,0,0,0,,notes don't autosave. I can export\Nthe note and checklist together, keeping the
+Dialogue: 0,0:01:50.09,0:01:53.10,Default,,0,0,0,,review record alongside the package.
+Dialogue: 0,0:01:53.14,0:01:57.97,Default,,0,0,0,,That makes the handoff inspectable,\Neven while the editorial decision remains
+Dialogue: 0,0:01:58.02,0:02:03.79,Default,,0,0,0,,open. Video is the example,\Nnot the limit of the approach.
+Dialogue: 0,0:02:03.83,0:02:08.19,Default,,0,0,0,,A similar workflow could be\Ndesigned around research documents, engineering
+Dialogue: 0,0:02:08.23,0:02:11.72,Default,,0,0,0,,evidence, or internal review processes.
+Dialogue: 0,0:02:11.76,0:02:16.98,Default,,0,0,0,,For a client, I'd start with\Nthe decision, the available inputs, and the
+Dialogue: 0,0:02:17.02,0:02:21.91,Default,,0,0,0,,constraints, then determine what to build,\Nhow it should connect to existing
+Dialogue: 0,0:02:21.95,0:02:26.30,Default,,0,0,0,,tools, and how we'd evaluate whether it is useful.
+Dialogue: 0,0:02:26.34,0:02:30.59,Default,,0,0,0,,If your team has scattered analysis,\Nor an idea that needs to become
+Dialogue: 0,0:02:30.63,0:02:36.31,Default,,0,0,0,,a testable system, visit Correspondence matrices\Ndot com to request a twenty-minute
+Dialogue: 0,0:02:36.34,0:02:41.78,Default,,0,0,0,,fit call. We'll discuss your goals,\Nconstraints, and the decision you need to
+Dialogue: 0,0:02:41.81,0:02:45.80,Default,,0,0,0,,make, and identify a practical next step.

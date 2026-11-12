@@ -1,0 +1,118 @@
+{
+  "taxonomy_version": "0.1.0",
+  "description": "Communication persona categories. These are style observations, not identity claims.",
+  "categories": [
+    {
+      "id": "teacher",
+      "label": "Teacher",
+      "description": "Explains ideas with sequencing, definitions, examples, and learning-oriented framing.",
+      "markers": ["learn", "lesson", "understand", "practice", "example", "let's look", "means", "definition"],
+      "tones": ["instructional", "analytical"],
+      "pacing": {"min_wpm": 95, "max_wpm": 165}
+    },
+    {
+      "id": "explainer",
+      "label": "Explainer",
+      "description": "Breaks concepts down into causes, patterns, and implications.",
+      "markers": ["because", "therefore", "the reason", "what this means", "in other words", "pattern", "system"],
+      "tones": ["analytical", "instructional"],
+      "pacing": {"min_wpm": 105, "max_wpm": 180}
+    },
+    {
+      "id": "commander",
+      "label": "Commander",
+      "description": "Uses directive language and decisive calls to action.",
+      "markers": ["must", "do this", "stop", "start", "now", "need to", "the rule is"],
+      "tones": ["critical", "instructional"],
+      "pacing": {"min_wpm": 120, "max_wpm": 210}
+    },
+    {
+      "id": "coach",
+      "label": "Coach",
+      "description": "Encourages action, progress, and practical improvement.",
+      "markers": ["you can", "practice", "improve", "try", "build", "progress", "habit", "feedback"],
+      "tones": ["motivational", "instructional"],
+      "pacing": {"min_wpm": 100, "max_wpm": 190}
+    },
+    {
+      "id": "philosopher",
+      "label": "Philosopher",
+      "description": "Reflects on meaning, assumptions, truth, and deeper implications.",
+      "markers": ["meaning", "truth", "question", "assume", "reality", "life", "why", "belief"],
+      "tones": ["reflective", "analytical"],
+      "pacing": {"min_wpm": 80, "max_wpm": 155}
+    },
+    {
+      "id": "storyteller",
+      "label": "Storyteller",
+      "description": "Uses narrative sequence, scenes, stakes, and personal or imagined situations.",
+      "markers": ["once", "then", "suddenly", "story", "remember", "imagine", "character", "moment"],
+      "tones": ["reflective", "motivational"],
+      "pacing": {"min_wpm": 90, "max_wpm": 180}
+    },
+    {
+      "id": "analyst",
+      "label": "Analyst",
+      "description": "Prioritizes evidence, variables, tradeoffs, and structured interpretation.",
+      "markers": ["data", "evidence", "model", "variable", "tradeoff", "compare", "measure", "analysis"],
+      "tones": ["analytical"],
+      "pacing": {"min_wpm": 95, "max_wpm": 175}
+    },
+    {
+      "id": "comedian",
+      "label": "Comedian",
+      "description": "Uses jokes, surprise, absurdity, or comic reversal.",
+      "markers": ["joke", "funny", "laugh", "ridiculous", "absurd", "punchline", "seriously"],
+      "tones": ["motivational", "reflective"],
+      "pacing": {"min_wpm": 115, "max_wpm": 220}
+    },
+    {
+      "id": "activist",
+      "label": "Activist",
+      "description": "Frames issues around urgency, harm, responsibility, and collective action.",
+      "markers": ["change", "justice", "fight", "protect", "harm", "community", "rights", "responsibility"],
+      "tones": ["critical", "motivational"],
+      "pacing": {"min_wpm": 110, "max_wpm": 210}
+    },
+    {
+      "id": "visionary",
+      "label": "Visionary",
+      "description": "Emphasizes future possibilities, transformation, and large-scale direction.",
+      "markers": ["future", "vision", "possibility", "transform", "imagine", "world", "next era", "build"],
+      "tones": ["motivational", "reflective"],
+      "pacing": {"min_wpm": 95, "max_wpm": 185}
+    },
+    {
+      "id": "technical_expert",
+      "label": "Technical Expert",
+      "description": "Uses implementation detail, systems vocabulary, and precise procedural claims.",
+      "markers": ["api", "system", "architecture", "implementation", "runtime", "model", "pipeline", "code"],
+      "tones": ["analytical", "instructional"],
+      "pacing": {"min_wpm": 95, "max_wpm": 175}
+    },
+    {
+      "id": "motivational_speaker",
+      "label": "Motivational Speaker",
+      "description": "Uses confidence, momentum, obstacles, and achievement framing.",
+      "markers": ["believe", "goal", "win", "push", "discipline", "success", "dream", "overcome"],
+      "tones": ["motivational"],
+      "pacing": {"min_wpm": 115, "max_wpm": 215}
+    },
+    {
+      "id": "interviewer",
+      "label": "Interviewer",
+      "description": "Asks questions, follows up, and draws out another speaker.",
+      "markers": ["question", "tell me", "how did", "what do you", "why do you", "can you explain"],
+      "tones": ["reflective", "analytical"],
+      "pacing": {"min_wpm": 80, "max_wpm": 170}
+    },
+    {
+      "id": "sales_pitch",
+      "label": "Sales/Pitch Mode",
+      "description": "Frames value, pain points, benefits, objections, and conversion.",
+      "markers": ["offer", "value", "benefit", "customer", "buy", "price", "problem", "solution", "result"],
+      "tones": ["motivational", "analytical"],
+      "pacing": {"min_wpm": 110, "max_wpm": 205}
+    }
+  ]
+}

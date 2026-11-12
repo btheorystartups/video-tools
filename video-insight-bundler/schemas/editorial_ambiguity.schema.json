@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "editorial_ambiguity.schema.json",
+  "title": "Editorial Ambiguity",
+  "type": "object",
+  "required": ["analysis_status", "method", "ambiguity_regions", "continuity_reinterpretation", "recommendation_impact", "ambiguity_confidence_score", "limitations"],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "ambiguity_regions": {"type": "array", "items": {"type": "object", "required": ["ambiguity_id", "from_segment_id", "to_segment_id", "ambiguity_class", "supporting_evidence", "conflicting_evidence", "ambiguity_confidence"]}},
+    "ambiguity_class_counts": {"type": "object"},
+    "continuity_reinterpretation": {"type": "array", "items": {"type": "object"}},
+    "recommendation_impact": {"type": "array", "items": {"type": "object"}},
+    "ambiguity_confidence_score": {"type": "number"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

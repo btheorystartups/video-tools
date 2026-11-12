@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "visual_boundary_alignment.schema.json",
+  "title": "Visual Boundary Alignment",
+  "type": "object",
+  "required": ["analysis_status", "method", "alignment_window_sec", "boundaries", "unsupported_visual_jumps", "summary", "limitations"],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "alignment_window_sec": {"type": "number"},
+    "boundaries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["alignment_id", "from_segment_id", "to_segment_id", "visual_support", "visual_contradiction", "transcript_support", "rhetorical_support", "discourse_support", "acoustic_support", "combined_boundary_confidence", "likely_visual_boundary", "likely_nonvisual_boundary", "suggested_review_action"]
+      }
+    },
+    "unsupported_visual_jumps": {"type": "array"},
+    "summary": {"type": "object"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

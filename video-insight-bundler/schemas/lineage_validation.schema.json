@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "lineage_validation.schema.json",
+  "title": "Lineage Validation",
+  "type": "object",
+  "required": ["lineage_consistency_score", "root_revision_id", "revision_state_count", "candidate_count", "lineage_issues", "deterministic_id_stability", "limitations"],
+  "properties": {
+    "validation_status": {"type": "string"},
+    "lineage_consistency_score": {"type": "number"},
+    "root_revision_id": {"type": "string"},
+    "revision_state_count": {"type": "number"},
+    "candidate_count": {"type": "number"},
+    "lineage_issues": {"type": "array"},
+    "deterministic_id_stability": {"type": "object"},
+    "limitations": {"type": "array"}
+  },
+  "additionalProperties": true
+}

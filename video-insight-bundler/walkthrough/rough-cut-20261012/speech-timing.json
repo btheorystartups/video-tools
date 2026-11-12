@@ -1,0 +1,2101 @@
+{
+    "voice":  "Microsoft David Desktop",
+    "rate":  -1,
+    "kind":  "local scratch narration, not Brian voice",
+    "words":  [
+                  {
+                      "position":  0,
+                      "count":  4,
+                      "seconds":  0.11,
+                      "text":  "When"
+                  },
+                  {
+                      "position":  5,
+                      "count":  8,
+                      "seconds":  0.31,
+                      "text":  "analysis"
+                  },
+                  {
+                      "position":  15,
+                      "count":  6,
+                      "seconds":  1.21,
+                      "text":  "source"
+                  },
+                  {
+                      "position":  22,
+                      "count":  8,
+                      "seconds":  1.6199999999999999,
+                      "text":  "material"
+                  },
+                  {
+                      "position":  32,
+                      "count":  3,
+                      "seconds":  2.505,
+                      "text":  "and"
+                  },
+                  {
+                      "position":  36,
+                      "count":  6,
+                      "seconds":  2.6999999999999997,
+                      "text":  "review"
+                  },
+                  {
+                      "position":  43,
+                      "count":  9,
+                      "seconds":  3.04,
+                      "text":  "decisions"
+                  },
+                  {
+                      "position":  53,
+                      "count":  4,
+                      "seconds":  3.655,
+                      "text":  "live"
+                  },
+                  {
+                      "position":  58,
+                      "count":  2,
+                      "seconds":  3.875,
+                      "text":  "in"
+                  },
+                  {
+                      "position":  61,
+                      "count":  9,
+                      "seconds":  4.04,
+                      "text":  "different"
+                  },
+                  {
+                      "position":  71,
+                      "count":  6,
+                      "seconds":  4.43,
+                      "text":  "places"
+                  },
+                  {
+                      "position":  79,
+                      "count":  5,
+                      "seconds":  5.495,
+                      "text":  "teams"
+                  },
+                  {
+                      "position":  85,
+                      "count":  3,
+                      "seconds":  5.85,
+                      "text":  "can"
+                  },
+                  {
+                      "position":  89,
+                      "count":  4,
+                      "seconds":  6.0749999999999993,
+                      "text":  "lose"
+                  },
+                  {
+                      "position":  94,
+                      "count":  5,
+                      "seconds":  6.38,
+                      "text":  "track"
+                  },
+                  {
+                      "position":  100,
+                      "count":  2,
+                      "seconds":  6.745,
+                      "text":  "of"
+                  },
+                  {
+                      "position":  103,
+                      "count":  3,
+                      "seconds":  6.875,
+                      "text":  "why"
+                  },
+                  {
+                      "position":  107,
+                      "count":  1,
+                      "seconds":  7.14,
+                      "text":  "a"
+                  },
+                  {
+                      "position":  109,
+                      "count":  14,
+                      "seconds":  7.225,
+                      "text":  "recommendation"
+                  },
+                  {
+                      "position":  124,
+                      "count":  3,
+                      "seconds":  8.07,
+                      "text":  "was"
+                  },
+                  {
+                      "position":  128,
+                      "count":  4,
+                      "seconds":  8.28,
+                      "text":  "made"
+                  },
+                  {
+                      "position":  134,
+                      "count":  3,
+                      "seconds":  9.65,
+                      "text":  "The"
+                  },
+                  {
+                      "position":  138,
+                      "count":  9,
+                      "seconds":  9.775,
+                      "text":  "challenge"
+                  },
+                  {
+                      "position":  148,
+                      "count":  5,
+                      "seconds":  10.299999999999999,
+                      "text":  "isn\u0027t"
+                  },
+                  {
+                      "position":  154,
+                      "count":  4,
+                      "seconds":  10.665,
+                      "text":  "just"
+                  },
+                  {
+                      "position":  159,
+                      "count":  10,
+                      "seconds":  10.959999999999999,
+                      "text":  "generating"
+                  },
+                  {
+                      "position":  170,
+                      "count":  4,
+                      "seconds":  11.555,
+                      "text":  "more"
+                  },
+                  {
+                      "position":  175,
+                      "count":  11,
+                      "seconds":  11.799999999999999,
+                      "text":  "information"
+                  },
+                  {
+                      "position":  188,
+                      "count":  4,
+                      "seconds":  13.59,
+                      "text":  "It\u0027s"
+                  },
+                  {
+                      "position":  193,
+                      "count":  6,
+                      "seconds":  13.79,
+                      "text":  "making"
+                  },
+                  {
+                      "position":  200,
+                      "count":  4,
+                      "seconds":  14.2,
+                      "text":  "that"
+                  },
+                  {
+                      "position":  205,
+                      "count":  11,
+                      "seconds":  14.375,
+                      "text":  "information"
+                  },
+                  {
+                      "position":  217,
+                      "count":  6,
+                      "seconds":  15.114999999999998,
+                      "text":  "usable"
+                  },
+                  {
+                      "position":  225,
+                      "count":  4,
+                      "seconds":  16.095,
+                      "text":  "what"
+                  },
+                  {
+                      "position":  230,
+                      "count":  6,
+                      "seconds":  16.285,
+                      "text":  "should"
+                  },
+                  {
+                      "position":  237,
+                      "count":  7,
+                      "seconds":  16.509999999999998,
+                      "text":  "someone"
+                  },
+                  {
+                      "position":  245,
+                      "count":  7,
+                      "seconds":  16.96,
+                      "text":  "inspect"
+                  },
+                  {
+                      "position":  259,
+                      "count":  8,
+                      "seconds":  18.255,
+                      "text":  "supports"
+                  },
+                  {
+                      "position":  254,
+                      "count":  4,
+                      "seconds":  18.06,
+                      "text":  "what"
+                  },
+                  {
+                      "position":  268,
+                      "count":  3,
+                      "seconds":  18.765,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  272,
+                      "count":  14,
+                      "seconds":  18.895,
+                      "text":  "recommendation"
+                  },
+                  {
+                      "position":  288,
+                      "count":  3,
+                      "seconds":  20.29,
+                      "text":  "and"
+                  },
+                  {
+                      "position":  292,
+                      "count":  4,
+                      "seconds":  20.474999999999998,
+                      "text":  "what"
+                  },
+                  {
+                      "position":  297,
+                      "count":  5,
+                      "seconds":  20.68,
+                      "text":  "needs"
+                  },
+                  {
+                      "position":  303,
+                      "count":  1,
+                      "seconds":  20.955,
+                      "text":  "a"
+                  },
+                  {
+                      "position":  305,
+                      "count":  5,
+                      "seconds":  21.025,
+                      "text":  "human"
+                  },
+                  {
+                      "position":  311,
+                      "count":  8,
+                      "seconds":  21.425,
+                      "text":  "decision"
+                  },
+                  {
+                      "position":  322,
+                      "count":  1,
+                      "seconds":  23.009999999999998,
+                      "text":  "I"
+                  },
+                  {
+                      "position":  324,
+                      "count":  5,
+                      "seconds":  23.14,
+                      "text":  "built"
+                  },
+                  {
+                      "position":  330,
+                      "count":  5,
+                      "seconds":  23.435,
+                      "text":  "Video"
+                  },
+                  {
+                      "position":  336,
+                      "count":  7,
+                      "seconds":  23.84,
+                      "text":  "Insight"
+                  },
+                  {
+                      "position":  344,
+                      "count":  7,
+                      "seconds":  24.349999999999998,
+                      "text":  "Bundler"
+                  },
+                  {
+                      "position":  352,
+                      "count":  2,
+                      "seconds":  24.77,
+                      "text":  "to"
+                  },
+                  {
+                      "position":  355,
+                      "count":  7,
+                      "seconds":  24.939999999999998,
+                      "text":  "explore"
+                  },
+                  {
+                      "position":  363,
+                      "count":  4,
+                      "seconds":  25.465,
+                      "text":  "that"
+                  },
+                  {
+                      "position":  368,
+                      "count":  8,
+                      "seconds":  25.669999999999998,
+                      "text":  "workflow"
+                  },
+                  {
+                      "position":  377,
+                      "count":  5,
+                      "seconds":  26.195,
+                      "text":  "using"
+                  },
+                  {
+                      "position":  383,
+                      "count":  5,
+                      "seconds":  26.599999999999998,
+                      "text":  "video"
+                  },
+                  {
+                      "position":  389,
+                      "count":  8,
+                      "seconds":  27.005,
+                      "text":  "analysis"
+                  },
+                  {
+                      "position":  399,
+                      "count":  2,
+                      "seconds":  28.764999999999997,
+                      "text":  "My"
+                  },
+                  {
+                      "position":  402,
+                      "count":  7,
+                      "seconds":  28.939999999999998,
+                      "text":  "central"
+                  },
+                  {
+                      "position":  410,
+                      "count":  6,
+                      "seconds":  29.439999999999998,
+                      "text":  "design"
+                  },
+                  {
+                      "position":  417,
+                      "count":  6,
+                      "seconds":  29.884999999999998,
+                      "text":  "choice"
+                  },
+                  {
+                      "position":  424,
+                      "count":  3,
+                      "seconds":  30.259999999999998,
+                      "text":  "was"
+                  },
+                  {
+                      "position":  428,
+                      "count":  2,
+                      "seconds":  30.514999999999997,
+                      "text":  "to"
+                  },
+                  {
+                      "position":  431,
+                      "count":  4,
+                      "seconds":  30.63,
+                      "text":  "keep"
+                  },
+                  {
+                      "position":  436,
+                      "count":  8,
+                      "seconds":  30.93,
+                      "text":  "recorded"
+                  },
+                  {
+                      "position":  445,
+                      "count":  7,
+                      "seconds":  31.43,
+                      "text":  "signals"
+                  },
+                  {
+                      "position":  454,
+                      "count":  6,
+                      "seconds":  32.214999999999996,
+                      "text":  "source"
+                  },
+                  {
+                      "position":  461,
+                      "count":  10,
+                      "seconds":  32.629999999999995,
+                      "text":  "references"
+                  },
+                  {
+                      "position":  473,
+                      "count":  3,
+                      "seconds":  33.51,
+                      "text":  "and"
+                  },
+                  {
+                      "position":  477,
+                      "count":  5,
+                      "seconds":  33.68,
+                      "text":  "human"
+                  },
+                  {
+                      "position":  483,
+                      "count":  9,
+                      "seconds":  34.08,
+                      "text":  "decisions"
+                  },
+                  {
+                      "position":  493,
+                      "count":  8,
+                      "seconds":  34.64,
+                      "text":  "separate"
+                  },
+                  {
+                      "position":  503,
+                      "count":  3,
+                      "seconds":  35.655,
+                      "text":  "but"
+                  },
+                  {
+                      "position":  507,
+                      "count":  9,
+                      "seconds":  35.87,
+                      "text":  "connected"
+                  },
+                  {
+                      "position":  518,
+                      "count":  5,
+                      "seconds":  37.42,
+                      "text":  "Video"
+                  },
+                  {
+                      "position":  524,
+                      "count":  2,
+                      "seconds":  37.835,
+                      "text":  "is"
+                  },
+                  {
+                      "position":  527,
+                      "count":  3,
+                      "seconds":  38.03,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  531,
+                      "count":  7,
+                      "seconds":  38.165,
+                      "text":  "example"
+                  },
+                  {
+                      "position":  539,
+                      "count":  4,
+                      "seconds":  38.72,
+                      "text":  "here"
+                  },
+                  {
+                      "position":  545,
+                      "count":  3,
+                      "seconds":  39.55,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  549,
+                      "count":  7,
+                      "seconds":  39.665,
+                      "text":  "broader"
+                  },
+                  {
+                      "position":  557,
+                      "count":  6,
+                      "seconds":  40.059999999999995,
+                      "text":  "design"
+                  },
+                  {
+                      "position":  564,
+                      "count":  7,
+                      "seconds":  40.51,
+                      "text":  "problem"
+                  },
+                  {
+                      "position":  572,
+                      "count":  2,
+                      "seconds":  40.98,
+                      "text":  "is"
+                  },
+                  {
+                      "position":  575,
+                      "count":  10,
+                      "seconds":  41.165,
+                      "text":  "connecting"
+                  },
+                  {
+                      "position":  586,
+                      "count":  8,
+                      "seconds":  41.735,
+                      "text":  "evidence"
+                  },
+                  {
+                      "position":  595,
+                      "count":  2,
+                      "seconds":  42.239999999999995,
+                      "text":  "to"
+                  },
+                  {
+                      "position":  598,
+                      "count":  9,
+                      "seconds":  42.364999999999995,
+                      "text":  "decisions"
+                  },
+                  {
+                      "position":  608,
+                      "count":  6,
+                      "seconds":  42.949999999999996,
+                      "text":  "people"
+                  },
+                  {
+                      "position":  615,
+                      "count":  3,
+                      "seconds":  43.335,
+                      "text":  "can"
+                  },
+                  {
+                      "position":  619,
+                      "count":  7,
+                      "seconds":  43.614999999999995,
+                      "text":  "inspect"
+                  },
+                  {
+                      "position":  628,
+                      "count":  4,
+                      "seconds":  45.245,
+                      "text":  "This"
+                  },
+                  {
+                      "position":  633,
+                      "count":  13,
+                      "seconds":  45.519999999999996,
+                      "text":  "demonstration"
+                  },
+                  {
+                      "position":  647,
+                      "count":  4,
+                      "seconds":  46.425,
+                      "text":  "uses"
+                  },
+                  {
+                      "position":  652,
+                      "count":  5,
+                      "seconds":  46.794999999999995,
+                      "text":  "saved"
+                  },
+                  {
+                      "position":  658,
+                      "count":  8,
+                      "seconds":  47.175,
+                      "text":  "analysis"
+                  },
+                  {
+                      "position":  668,
+                      "count":  4,
+                      "seconds":  48.385,
+                      "text":  "with"
+                  },
+                  {
+                      "position":  673,
+                      "count":  8,
+                      "seconds":  48.585,
+                      "text":  "original"
+                  },
+                  {
+                      "position":  682,
+                      "count":  5,
+                      "seconds":  49.055,
+                      "text":  "media"
+                  },
+                  {
+                      "position":  688,
+                      "count":  8,
+                      "seconds":  49.47,
+                      "text":  "excluded"
+                  },
+                  {
+                      "position":  699,
+                      "count":  4,
+                      "seconds":  51.144999999999996,
+                      "text":  "Here"
+                  },
+                  {
+                      "position":  705,
+                      "count":  5,
+                      "seconds":  51.97,
+                      "text":  "we\u0027re"
+                  },
+                  {
+                      "position":  711,
+                      "count":  9,
+                      "seconds":  52.224999999999994,
+                      "text":  "reviewing"
+                  },
+                  {
+                      "position":  721,
+                      "count":  3,
+                      "seconds":  52.735,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  725,
+                      "count":  7,
+                      "seconds":  52.864999999999995,
+                      "text":  "opening"
+                  },
+                  {
+                      "position":  733,
+                      "count":  7,
+                      "seconds":  53.305,
+                      "text":  "fifteen"
+                  },
+                  {
+                      "position":  741,
+                      "count":  7,
+                      "seconds":  53.75,
+                      "text":  "seconds"
+                  },
+                  {
+                      "position":  749,
+                      "count":  2,
+                      "seconds":  54.26,
+                      "text":  "of"
+                  },
+                  {
+                      "position":  752,
+                      "count":  3,
+                      "seconds":  54.41,
+                      "text":  "one"
+                  },
+                  {
+                      "position":  756,
+                      "count":  7,
+                      "seconds":  54.64,
+                      "text":  "example"
+                  },
+                  {
+                      "position":  764,
+                      "count":  5,
+                      "seconds":  55.199999999999996,
+                      "text":  "video"
+                  },
+                  {
+                      "position":  771,
+                      "count":  3,
+                      "seconds":  56.599999999999994,
+                      "text":  "The"
+                  },
+                  {
+                      "position":  775,
+                      "count":  8,
+                      "seconds":  56.735,
+                      "text":  "timeline"
+                  },
+                  {
+                      "position":  784,
+                      "count":  7,
+                      "seconds":  57.37,
+                      "text":  "locates"
+                  },
+                  {
+                      "position":  792,
+                      "count":  3,
+                      "seconds":  57.87,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  796,
+                      "count":  7,
+                      "seconds":  57.964999999999996,
+                      "text":  "segment"
+                  },
+                  {
+                      "position":  805,
+                      "count":  3,
+                      "seconds":  58.989999999999995,
+                      "text":  "and"
+                  },
+                  {
+                      "position":  809,
+                      "count":  3,
+                      "seconds":  59.16,
+                      "text":  "its"
+                  },
+                  {
+                      "position":  813,
+                      "count":  7,
+                      "seconds":  59.32,
+                      "text":  "context"
+                  },
+                  {
+                      "position":  821,
+                      "count":  5,
+                      "seconds":  60,
+                      "text":  "shows"
+                  },
+                  {
+                      "position":  827,
+                      "count":  4,
+                      "seconds":  60.349999999999994,
+                      "text":  "what"
+                  },
+                  {
+                      "position":  832,
+                      "count":  3,
+                      "seconds":  60.565,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  836,
+                      "count":  8,
+                      "seconds":  60.695,
+                      "text":  "analysis"
+                  },
+                  {
+                      "position":  845,
+                      "count":  8,
+                      "seconds":  61.334999999999994,
+                      "text":  "recorded"
+                  },
+                  {
+                      "position":  855,
+                      "count":  4,
+                      "seconds":  62.894999999999996,
+                      "text":  "I\u0027ll"
+                  },
+                  {
+                      "position":  860,
+                      "count":  7,
+                      "seconds":  63.084999999999994,
+                      "text":  "compare"
+                  },
+                  {
+                      "position":  868,
+                      "count":  5,
+                      "seconds":  63.525,
+                      "text":  "those"
+                  },
+                  {
+                      "position":  874,
+                      "count":  7,
+                      "seconds":  63.76,
+                      "text":  "signals"
+                  },
+                  {
+                      "position":  882,
+                      "count":  4,
+                      "seconds":  64.259999999999991,
+                      "text":  "with"
+                  },
+                  {
+                      "position":  887,
+                      "count":  3,
+                      "seconds":  64.49,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  891,
+                      "count":  6,
+                      "seconds":  64.605,
+                      "text":  "linked"
+                  },
+                  {
+                      "position":  898,
+                      "count":  14,
+                      "seconds":  64.914999999999992,
+                      "text":  "recommendation"
+                  },
+                  {
+                      "position":  914,
+                      "count":  7,
+                      "seconds":  66.365,
+                      "text":  "inspect"
+                  },
+                  {
+                      "position":  922,
+                      "count":  7,
+                      "seconds":  66.89,
+                      "text":  "whether"
+                  },
+                  {
+                      "position":  930,
+                      "count":  3,
+                      "seconds":  67.175,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  934,
+                      "count":  7,
+                      "seconds":  67.325,
+                      "text":  "opening"
+                  },
+                  {
+                      "position":  942,
+                      "count":  5,
+                      "seconds":  67.77,
+                      "text":  "needs"
+                  },
+                  {
+                      "position":  950,
+                      "count":  7,
+                      "seconds":  68.115,
+                      "text":  "clearer"
+                  },
+                  {
+                      "position":  948,
+                      "count":  1,
+                      "seconds":  68.045,
+                      "text":  "a"
+                  },
+                  {
+                      "position":  958,
+                      "count":  10,
+                      "seconds":  68.56,
+                      "text":  "transition"
+                  },
+                  {
+                      "position":  969,
+                      "count":  2,
+                      "seconds":  69.265,
+                      "text":  "or"
+                  },
+                  {
+                      "position":  972,
+                      "count":  1,
+                      "seconds":  69.465,
+                      "text":  "a"
+                  },
+                  {
+                      "position":  974,
+                      "count":  6,
+                      "seconds":  69.524999999999991,
+                      "text":  "pacing"
+                  },
+                  {
+                      "position":  981,
+                      "count":  6,
+                      "seconds":  70.024999999999991,
+                      "text":  "review"
+                  },
+                  {
+                      "position":  989,
+                      "count":  5,
+                      "seconds":  71.47,
+                      "text":  "These"
+                  },
+                  {
+                      "position":  995,
+                      "count":  7,
+                      "seconds":  71.71,
+                      "text":  "signals"
+                  },
+                  {
+                      "position":  1003,
+                      "count":  5,
+                      "seconds":  72.21,
+                      "text":  "guide"
+                  },
+                  {
+                      "position":  1009,
+                      "count":  10,
+                      "seconds":  72.524999999999991,
+                      "text":  "inspection"
+                  },
+                  {
+                      "position":  1021,
+                      "count":  3,
+                      "seconds":  73.725,
+                      "text":  "not"
+                  },
+                  {
+                      "position":  1025,
+                      "count":  11,
+                      "seconds":  73.985,
+                      "text":  "conclusions"
+                  },
+                  {
+                      "position":  1038,
+                      "count":  6,
+                      "seconds":  75.804999999999993,
+                      "text":  "Before"
+                  },
+                  {
+                      "position":  1045,
+                      "count":  7,
+                      "seconds":  76.21,
+                      "text":  "editing"
+                  },
+                  {
+                      "position":  1054,
+                      "count":  3,
+                      "seconds":  77.149999999999991,
+                      "text":  "I\u0027d"
+                  },
+                  {
+                      "position":  1058,
+                      "count":  5,
+                      "seconds":  77.35499999999999,
+                      "text":  "check"
+                  },
+                  {
+                      "position":  1064,
+                      "count":  3,
+                      "seconds":  77.645,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1068,
+                      "count":  8,
+                      "seconds":  77.8,
+                      "text":  "original"
+                  },
+                  {
+                      "position":  1077,
+                      "count":  5,
+                      "seconds":  78.285,
+                      "text":  "media"
+                  },
+                  {
+                      "position":  1083,
+                      "count":  3,
+                      "seconds":  78.695,
+                      "text":  "and"
+                  },
+                  {
+                      "position":  1087,
+                      "count":  6,
+                      "seconds":  78.875,
+                      "text":  "decide"
+                  },
+                  {
+                      "position":  1102,
+                      "count":  3,
+                      "seconds":  79.63,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1106,
+                      "count":  9,
+                      "seconds":  79.77,
+                      "text":  "opening\u0027s"
+                  },
+                  {
+                      "position":  1094,
+                      "count":  7,
+                      "seconds":  79.335,
+                      "text":  "whether"
+                  },
+                  {
+                      "position":  1116,
+                      "count":  9,
+                      "seconds":  80.274999999999991,
+                      "text":  "structure"
+                  },
+                  {
+                      "position":  1126,
+                      "count":  2,
+                      "seconds":  80.835,
+                      "text":  "is"
+                  },
+                  {
+                      "position":  1129,
+                      "count":  11,
+                      "seconds":  81.015,
+                      "text":  "intentional"
+                  },
+                  {
+                      "position":  1142,
+                      "count":  3,
+                      "seconds":  82.7,
+                      "text":  "The"
+                  },
+                  {
+                      "position":  1146,
+                      "count":  8,
+                      "seconds":  82.82,
+                      "text":  "workflow"
+                  },
+                  {
+                      "position":  1155,
+                      "count":  4,
+                      "seconds":  83.36,
+                      "text":  "lets"
+                  },
+                  {
+                      "position":  1160,
+                      "count":  2,
+                      "seconds":  83.634999999999991,
+                      "text":  "me"
+                  },
+                  {
+                      "position":  1163,
+                      "count":  8,
+                      "seconds":  83.81,
+                      "text":  "document"
+                  },
+                  {
+                      "position":  1172,
+                      "count":  4,
+                      "seconds":  84.42,
+                      "text":  "that"
+                  },
+                  {
+                      "position":  1177,
+                      "count":  8,
+                      "seconds":  84.61,
+                      "text":  "question"
+                  },
+                  {
+                      "position":  1186,
+                      "count":  3,
+                      "seconds":  85.14,
+                      "text":  "and"
+                  },
+                  {
+                      "position":  1190,
+                      "count":  3,
+                      "seconds":  85.32,
+                      "text":  "its"
+                  },
+                  {
+                      "position":  1194,
+                      "count":  4,
+                      "seconds":  85.505,
+                      "text":  "next"
+                  },
+                  {
+                      "position":  1199,
+                      "count":  4,
+                      "seconds":  85.835,
+                      "text":  "step"
+                  },
+                  {
+                      "position":  1206,
+                      "count":  3,
+                      "seconds":  87.27,
+                      "text":  "For"
+                  },
+                  {
+                      "position":  1210,
+                      "count":  4,
+                      "seconds":  87.505,
+                      "text":  "this"
+                  },
+                  {
+                      "position":  1215,
+                      "count":  7,
+                      "seconds":  87.74,
+                      "text":  "example"
+                  },
+                  {
+                      "position":  1224,
+                      "count":  1,
+                      "seconds":  88.85499999999999,
+                      "text":  "I"
+                  },
+                  {
+                      "position":  1226,
+                      "count":  5,
+                      "seconds":  88.975,
+                      "text":  "leave"
+                  },
+                  {
+                      "position":  1232,
+                      "count":  3,
+                      "seconds":  89.22,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1236,
+                      "count":  9,
+                      "seconds":  89.36999999999999,
+                      "text":  "editorial"
+                  },
+                  {
+                      "position":  1246,
+                      "count":  8,
+                      "seconds":  90.05,
+                      "text":  "decision"
+                  },
+                  {
+                      "position":  1255,
+                      "count":  4,
+                      "seconds":  90.57,
+                      "text":  "open"
+                  },
+                  {
+                      "position":  1260,
+                      "count":  3,
+                      "seconds":  90.899999999999991,
+                      "text":  "and"
+                  },
+                  {
+                      "position":  1264,
+                      "count":  6,
+                      "seconds":  91.1,
+                      "text":  "record"
+                  },
+                  {
+                      "position":  1271,
+                      "count":  4,
+                      "seconds":  91.49499999999999,
+                      "text":  "what"
+                  },
+                  {
+                      "position":  1276,
+                      "count":  1,
+                      "seconds":  91.7,
+                      "text":  "I"
+                  },
+                  {
+                      "position":  1278,
+                      "count":  7,
+                      "seconds":  91.845,
+                      "text":  "checked"
+                  },
+                  {
+                      "position":  1287,
+                      "count":  3,
+                      "seconds":  92.78,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1291,
+                      "count":  11,
+                      "seconds":  92.929999999999993,
+                      "text":  "uncertainty"
+                  },
+                  {
+                      "position":  1304,
+                      "count":  3,
+                      "seconds":  94.255,
+                      "text":  "and"
+                  },
+                  {
+                      "position":  1308,
+                      "count":  4,
+                      "seconds":  94.44,
+                      "text":  "what"
+                  },
+                  {
+                      "position":  1313,
+                      "count":  2,
+                      "seconds":  94.649999999999991,
+                      "text":  "to"
+                  },
+                  {
+                      "position":  1316,
+                      "count":  7,
+                      "seconds":  94.795,
+                      "text":  "inspect"
+                  },
+                  {
+                      "position":  1324,
+                      "count":  4,
+                      "seconds":  95.31,
+                      "text":  "next"
+                  },
+                  {
+                      "position":  1330,
+                      "count":  3,
+                      "seconds":  96.824999999999989,
+                      "text":  "Now"
+                  },
+                  {
+                      "position":  1334,
+                      "count":  3,
+                      "seconds":  97.11999999999999,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1338,
+                      "count":  4,
+                      "seconds":  97.235,
+                      "text":  "next"
+                  },
+                  {
+                      "position":  1343,
+                      "count":  8,
+                      "seconds":  97.585,
+                      "text":  "reviewer"
+                  },
+                  {
+                      "position":  1352,
+                      "count":  3,
+                      "seconds":  98.074999999999989,
+                      "text":  "has"
+                  },
+                  {
+                      "position":  1356,
+                      "count":  2,
+                      "seconds":  98.304999999999993,
+                      "text":  "an"
+                  },
+                  {
+                      "position":  1359,
+                      "count":  8,
+                      "seconds":  98.414999999999992,
+                      "text":  "explicit"
+                  },
+                  {
+                      "position":  1368,
+                      "count":  8,
+                      "seconds":  99.03,
+                      "text":  "starting"
+                  },
+                  {
+                      "position":  1377,
+                      "count":  5,
+                      "seconds":  99.524999999999991,
+                      "text":  "point"
+                  },
+                  {
+                      "position":  1384,
+                      "count":  4,
+                      "seconds":  100.97,
+                      "text":  "This"
+                  },
+                  {
+                      "position":  1389,
+                      "count":  6,
+                      "seconds":  101.16499999999999,
+                      "text":  "static"
+                  },
+                  {
+                      "position":  1396,
+                      "count":  7,
+                      "seconds":  101.58,
+                      "text":  "version"
+                  },
+                  {
+                      "position":  1404,
+                      "count":  8,
+                      "seconds":  102.035,
+                      "text":  "requires"
+                  },
+                  {
+                      "position":  1413,
+                      "count":  2,
+                      "seconds":  102.61,
+                      "text":  "an"
+                  },
+                  {
+                      "position":  1416,
+                      "count":  8,
+                      "seconds":  102.725,
+                      "text":  "external"
+                  },
+                  {
+                      "position":  1425,
+                      "count":  4,
+                      "seconds":  103.3,
+                      "text":  "save"
+                  },
+                  {
+                      "position":  1431,
+                      "count":  5,
+                      "seconds":  104.24,
+                      "text":  "notes"
+                  },
+                  {
+                      "position":  1437,
+                      "count":  5,
+                      "seconds":  104.6,
+                      "text":  "don\u0027t"
+                  },
+                  {
+                      "position":  1443,
+                      "count":  8,
+                      "seconds":  104.865,
+                      "text":  "autosave"
+                  },
+                  {
+                      "position":  1453,
+                      "count":  1,
+                      "seconds":  106.69,
+                      "text":  "I"
+                  },
+                  {
+                      "position":  1455,
+                      "count":  3,
+                      "seconds":  106.82,
+                      "text":  "can"
+                  },
+                  {
+                      "position":  1459,
+                      "count":  6,
+                      "seconds":  107.015,
+                      "text":  "export"
+                  },
+                  {
+                      "position":  1466,
+                      "count":  3,
+                      "seconds":  107.515,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1470,
+                      "count":  4,
+                      "seconds":  107.60499999999999,
+                      "text":  "note"
+                  },
+                  {
+                      "position":  1475,
+                      "count":  3,
+                      "seconds":  107.865,
+                      "text":  "and"
+                  },
+                  {
+                      "position":  1479,
+                      "count":  9,
+                      "seconds":  108.03999999999999,
+                      "text":  "checklist"
+                  },
+                  {
+                      "position":  1489,
+                      "count":  8,
+                      "seconds":  108.61999999999999,
+                      "text":  "together"
+                  },
+                  {
+                      "position":  1499,
+                      "count":  7,
+                      "seconds":  109.58999999999999,
+                      "text":  "keeping"
+                  },
+                  {
+                      "position":  1507,
+                      "count":  3,
+                      "seconds":  109.975,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1511,
+                      "count":  6,
+                      "seconds":  110.08999999999999,
+                      "text":  "review"
+                  },
+                  {
+                      "position":  1518,
+                      "count":  6,
+                      "seconds":  110.425,
+                      "text":  "record"
+                  },
+                  {
+                      "position":  1525,
+                      "count":  9,
+                      "seconds":  110.82,
+                      "text":  "alongside"
+                  },
+                  {
+                      "position":  1535,
+                      "count":  3,
+                      "seconds":  111.49499999999999,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1539,
+                      "count":  7,
+                      "seconds":  111.58999999999999,
+                      "text":  "package"
+                  },
+                  {
+                      "position":  1548,
+                      "count":  4,
+                      "seconds":  113.14,
+                      "text":  "That"
+                  },
+                  {
+                      "position":  1553,
+                      "count":  5,
+                      "seconds":  113.38499999999999,
+                      "text":  "makes"
+                  },
+                  {
+                      "position":  1559,
+                      "count":  3,
+                      "seconds":  113.705,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1563,
+                      "count":  7,
+                      "seconds":  113.82,
+                      "text":  "handoff"
+                  },
+                  {
+                      "position":  1571,
+                      "count":  11,
+                      "seconds":  114.335,
+                      "text":  "inspectable"
+                  },
+                  {
+                      "position":  1584,
+                      "count":  4,
+                      "seconds":  115.6,
+                      "text":  "even"
+                  },
+                  {
+                      "position":  1589,
+                      "count":  5,
+                      "seconds":  115.91,
+                      "text":  "while"
+                  },
+                  {
+                      "position":  1595,
+                      "count":  3,
+                      "seconds":  116.16,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1599,
+                      "count":  9,
+                      "seconds":  116.315,
+                      "text":  "editorial"
+                  },
+                  {
+                      "position":  1609,
+                      "count":  8,
+                      "seconds":  116.99499999999999,
+                      "text":  "decision"
+                  },
+                  {
+                      "position":  1618,
+                      "count":  7,
+                      "seconds":  117.52499999999999,
+                      "text":  "remains"
+                  },
+                  {
+                      "position":  1626,
+                      "count":  4,
+                      "seconds":  118.015,
+                      "text":  "open"
+                  },
+                  {
+                      "position":  1633,
+                      "count":  5,
+                      "seconds":  119.405,
+                      "text":  "Video"
+                  },
+                  {
+                      "position":  1639,
+                      "count":  2,
+                      "seconds":  119.815,
+                      "text":  "is"
+                  },
+                  {
+                      "position":  1646,
+                      "count":  7,
+                      "seconds":  120.145,
+                      "text":  "example"
+                  },
+                  {
+                      "position":  1642,
+                      "count":  3,
+                      "seconds":  120.00999999999999,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1655,
+                      "count":  3,
+                      "seconds":  121.24499999999999,
+                      "text":  "not"
+                  },
+                  {
+                      "position":  1659,
+                      "count":  3,
+                      "seconds":  121.5,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1663,
+                      "count":  5,
+                      "seconds":  121.6,
+                      "text":  "limit"
+                  },
+                  {
+                      "position":  1669,
+                      "count":  2,
+                      "seconds":  121.955,
+                      "text":  "of"
+                  },
+                  {
+                      "position":  1672,
+                      "count":  3,
+                      "seconds":  122.07,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1676,
+                      "count":  8,
+                      "seconds":  122.225,
+                      "text":  "approach"
+                  },
+                  {
+                      "position":  1686,
+                      "count":  1,
+                      "seconds":  123.83,
+                      "text":  "A"
+                  },
+                  {
+                      "position":  1688,
+                      "count":  7,
+                      "seconds":  123.92999999999999,
+                      "text":  "similar"
+                  },
+                  {
+                      "position":  1696,
+                      "count":  8,
+                      "seconds":  124.43499999999999,
+                      "text":  "workflow"
+                  },
+                  {
+                      "position":  1705,
+                      "count":  5,
+                      "seconds":  124.97,
+                      "text":  "could"
+                  },
+                  {
+                      "position":  1711,
+                      "count":  2,
+                      "seconds":  125.145,
+                      "text":  "be"
+                  },
+                  {
+                      "position":  1714,
+                      "count":  8,
+                      "seconds":  125.315,
+                      "text":  "designed"
+                  },
+                  {
+                      "position":  1723,
+                      "count":  6,
+                      "seconds":  125.77,
+                      "text":  "around"
+                  },
+                  {
+                      "position":  1730,
+                      "count":  8,
+                      "seconds":  126.21,
+                      "text":  "research"
+                  },
+                  {
+                      "position":  1739,
+                      "count":  9,
+                      "seconds":  126.69,
+                      "text":  "documents"
+                  },
+                  {
+                      "position":  1750,
+                      "count":  11,
+                      "seconds":  127.565,
+                      "text":  "engineering"
+                  },
+                  {
+                      "position":  1762,
+                      "count":  8,
+                      "seconds":  128.23,
+                      "text":  "evidence"
+                  },
+                  {
+                      "position":  1772,
+                      "count":  2,
+                      "seconds":  128.93,
+                      "text":  "or"
+                  },
+                  {
+                      "position":  1775,
+                      "count":  8,
+                      "seconds":  129.11499999999998,
+                      "text":  "internal"
+                  },
+                  {
+                      "position":  1784,
+                      "count":  6,
+                      "seconds":  129.635,
+                      "text":  "review"
+                  },
+                  {
+                      "position":  1791,
+                      "count":  9,
+                      "seconds":  129.98,
+                      "text":  "processes"
+                  },
+                  {
+                      "position":  1802,
+                      "count":  3,
+                      "seconds":  131.76,
+                      "text":  "For"
+                  },
+                  {
+                      "position":  1806,
+                      "count":  1,
+                      "seconds":  131.98499999999999,
+                      "text":  "a"
+                  },
+                  {
+                      "position":  1808,
+                      "count":  6,
+                      "seconds":  132.045,
+                      "text":  "client"
+                  },
+                  {
+                      "position":  1816,
+                      "count":  3,
+                      "seconds":  133.025,
+                      "text":  "I\u0027d"
+                  },
+                  {
+                      "position":  1820,
+                      "count":  5,
+                      "seconds":  133.195,
+                      "text":  "start"
+                  },
+                  {
+                      "position":  1826,
+                      "count":  4,
+                      "seconds":  133.59,
+                      "text":  "with"
+                  },
+                  {
+                      "position":  1831,
+                      "count":  3,
+                      "seconds":  133.815,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1835,
+                      "count":  8,
+                      "seconds":  133.92499999999998,
+                      "text":  "decision"
+                  },
+                  {
+                      "position":  1845,
+                      "count":  3,
+                      "seconds":  135.005,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1849,
+                      "count":  9,
+                      "seconds":  135.16,
+                      "text":  "available"
+                  },
+                  {
+                      "position":  1859,
+                      "count":  6,
+                      "seconds":  135.685,
+                      "text":  "inputs"
+                  },
+                  {
+                      "position":  1867,
+                      "count":  3,
+                      "seconds":  136.755,
+                      "text":  "and"
+                  },
+                  {
+                      "position":  1871,
+                      "count":  3,
+                      "seconds":  136.93,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  1875,
+                      "count":  11,
+                      "seconds":  137.01999999999998,
+                      "text":  "constraints"
+                  },
+                  {
+                      "position":  1888,
+                      "count":  4,
+                      "seconds":  138.31,
+                      "text":  "then"
+                  },
+                  {
+                      "position":  1893,
+                      "count":  9,
+                      "seconds":  138.515,
+                      "text":  "determine"
+                  },
+                  {
+                      "position":  1903,
+                      "count":  4,
+                      "seconds":  139.04999999999998,
+                      "text":  "what"
+                  },
+                  {
+                      "position":  1908,
+                      "count":  2,
+                      "seconds":  139.26,
+                      "text":  "to"
+                  },
+                  {
+                      "position":  1911,
+                      "count":  5,
+                      "seconds":  139.38,
+                      "text":  "build"
+                  },
+                  {
+                      "position":  1918,
+                      "count":  3,
+                      "seconds":  140.26999999999998,
+                      "text":  "how"
+                  },
+                  {
+                      "position":  1922,
+                      "count":  2,
+                      "seconds":  140.51,
+                      "text":  "it"
+                  },
+                  {
+                      "position":  1925,
+                      "count":  6,
+                      "seconds":  140.635,
+                      "text":  "should"
+                  },
+                  {
+                      "position":  1932,
+                      "count":  7,
+                      "seconds":  140.88,
+                      "text":  "connect"
+                  },
+                  {
+                      "position":  1940,
+                      "count":  2,
+                      "seconds":  141.265,
+                      "text":  "to"
+                  },
+                  {
+                      "position":  1943,
+                      "count":  8,
+                      "seconds":  141.39499999999998,
+                      "text":  "existing"
+                  },
+                  {
+                      "position":  1952,
+                      "count":  5,
+                      "seconds":  141.95499999999998,
+                      "text":  "tools"
+                  },
+                  {
+                      "position":  1959,
+                      "count":  3,
+                      "seconds":  142.94,
+                      "text":  "and"
+                  },
+                  {
+                      "position":  1963,
+                      "count":  3,
+                      "seconds":  143.10999999999999,
+                      "text":  "how"
+                  },
+                  {
+                      "position":  1967,
+                      "count":  4,
+                      "seconds":  143.32,
+                      "text":  "we\u0027d"
+                  },
+                  {
+                      "position":  1972,
+                      "count":  8,
+                      "seconds":  143.54,
+                      "text":  "evaluate"
+                  },
+                  {
+                      "position":  1981,
+                      "count":  7,
+                      "seconds":  144.19,
+                      "text":  "whether"
+                  },
+                  {
+                      "position":  1989,
+                      "count":  2,
+                      "seconds":  144.505,
+                      "text":  "it"
+                  },
+                  {
+                      "position":  1992,
+                      "count":  2,
+                      "seconds":  144.63,
+                      "text":  "is"
+                  },
+                  {
+                      "position":  1995,
+                      "count":  6,
+                      "seconds":  144.79999999999998,
+                      "text":  "useful"
+                  },
+                  {
+                      "position":  2004,
+                      "count":  2,
+                      "seconds":  146.34,
+                      "text":  "If"
+                  },
+                  {
+                      "position":  2007,
+                      "count":  4,
+                      "seconds":  146.515,
+                      "text":  "your"
+                  },
+                  {
+                      "position":  2012,
+                      "count":  4,
+                      "seconds":  146.7,
+                      "text":  "team"
+                  },
+                  {
+                      "position":  2017,
+                      "count":  3,
+                      "seconds":  147.045,
+                      "text":  "has"
+                  },
+                  {
+                      "position":  2021,
+                      "count":  9,
+                      "seconds":  147.215,
+                      "text":  "scattered"
+                  },
+                  {
+                      "position":  2031,
+                      "count":  8,
+                      "seconds":  147.67,
+                      "text":  "analysis"
+                  },
+                  {
+                      "position":  2041,
+                      "count":  2,
+                      "seconds":  148.88,
+                      "text":  "or"
+                  },
+                  {
+                      "position":  2044,
+                      "count":  2,
+                      "seconds":  149.07,
+                      "text":  "an"
+                  },
+                  {
+                      "position":  2047,
+                      "count":  4,
+                      "seconds":  149.195,
+                      "text":  "idea"
+                  },
+                  {
+                      "position":  2052,
+                      "count":  4,
+                      "seconds":  149.60999999999999,
+                      "text":  "that"
+                  },
+                  {
+                      "position":  2057,
+                      "count":  5,
+                      "seconds":  149.815,
+                      "text":  "needs"
+                  },
+                  {
+                      "position":  2063,
+                      "count":  2,
+                      "seconds":  150.14499999999998,
+                      "text":  "to"
+                  },
+                  {
+                      "position":  2066,
+                      "count":  6,
+                      "seconds":  150.265,
+                      "text":  "become"
+                  },
+                  {
+                      "position":  2073,
+                      "count":  1,
+                      "seconds":  150.63,
+                      "text":  "a"
+                  },
+                  {
+                      "position":  2075,
+                      "count":  8,
+                      "seconds":  150.7,
+                      "text":  "testable"
+                  },
+                  {
+                      "position":  2084,
+                      "count":  6,
+                      "seconds":  151.275,
+                      "text":  "system"
+                  },
+                  {
+                      "position":  2092,
+                      "count":  5,
+                      "seconds":  152.33499999999998,
+                      "text":  "visit"
+                  },
+                  {
+                      "position":  2098,
+                      "count":  14,
+                      "seconds":  152.69,
+                      "text":  "Correspondence"
+                  },
+                  {
+                      "position":  2113,
+                      "count":  8,
+                      "seconds":  153.57,
+                      "text":  "matrices"
+                  },
+                  {
+                      "position":  2122,
+                      "count":  3,
+                      "seconds":  154.28,
+                      "text":  "dot"
+                  },
+                  {
+                      "position":  2126,
+                      "count":  3,
+                      "seconds":  154.54999999999998,
+                      "text":  "com"
+                  },
+                  {
+                      "position":  2130,
+                      "count":  2,
+                      "seconds":  154.86499999999998,
+                      "text":  "to"
+                  },
+                  {
+                      "position":  2133,
+                      "count":  7,
+                      "seconds":  155.015,
+                      "text":  "request"
+                  },
+                  {
+                      "position":  2141,
+                      "count":  1,
+                      "seconds":  155.5,
+                      "text":  "a"
+                  },
+                  {
+                      "position":  2143,
+                      "count":  13,
+                      "seconds":  155.57,
+                      "text":  "twenty-minute"
+                  },
+                  {
+                      "position":  2157,
+                      "count":  3,
+                      "seconds":  156.345,
+                      "text":  "fit"
+                  },
+                  {
+                      "position":  2161,
+                      "count":  4,
+                      "seconds":  156.6,
+                      "text":  "call"
+                  },
+                  {
+                      "position":  2167,
+                      "count":  5,
+                      "seconds":  157.995,
+                      "text":  "We\u0027ll"
+                  },
+                  {
+                      "position":  2173,
+                      "count":  7,
+                      "seconds":  158.23499999999999,
+                      "text":  "discuss"
+                  },
+                  {
+                      "position":  2181,
+                      "count":  4,
+                      "seconds":  158.725,
+                      "text":  "your"
+                  },
+                  {
+                      "position":  2186,
+                      "count":  5,
+                      "seconds":  158.89,
+                      "text":  "goals"
+                  },
+                  {
+                      "position":  2193,
+                      "count":  11,
+                      "seconds":  159.56,
+                      "text":  "constraints"
+                  },
+                  {
+                      "position":  2206,
+                      "count":  3,
+                      "seconds":  160.525,
+                      "text":  "and"
+                  },
+                  {
+                      "position":  2210,
+                      "count":  3,
+                      "seconds":  160.69,
+                      "text":  "the"
+                  },
+                  {
+                      "position":  2214,
+                      "count":  8,
+                      "seconds":  160.785,
+                      "text":  "decision"
+                  },
+                  {
+                      "position":  2223,
+                      "count":  3,
+                      "seconds":  161.325,
+                      "text":  "you"
+                  },
+                  {
+                      "position":  2227,
+                      "count":  4,
+                      "seconds":  161.465,
+                      "text":  "need"
+                  },
+                  {
+                      "position":  2232,
+                      "count":  2,
+                      "seconds":  161.70499999999998,
+                      "text":  "to"
+                  },
+                  {
+                      "position":  2235,
+                      "count":  4,
+                      "seconds":  161.815,
+                      "text":  "make"
+                  },
+                  {
+                      "position":  2241,
+                      "count":  3,
+                      "seconds":  162.655,
+                      "text":  "and"
+                  },
+                  {
+                      "position":  2245,
+                      "count":  8,
+                      "seconds":  162.84,
+                      "text":  "identify"
+                  },
+                  {
+                      "position":  2254,
+                      "count":  1,
+                      "seconds":  163.545,
+                      "text":  "a"
+                  },
+                  {
+                      "position":  2256,
+                      "count":  9,
+                      "seconds":  163.62,
+                      "text":  "practical"
+                  },
+                  {
+                      "position":  2266,
+                      "count":  4,
+                      "seconds":  164.23999999999998,
+                      "text":  "next"
+                  },
+                  {
+                      "position":  2271,
+                      "count":  4,
+                      "seconds":  164.57,
+                      "text":  "step"
+                  }
+              ]
+}

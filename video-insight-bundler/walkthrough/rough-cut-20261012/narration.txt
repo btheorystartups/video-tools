@@ -1,0 +1,11 @@
+When analysis, source material, and review decisions live in different places, teams can lose track of why a recommendation was made. The challenge isn't just generating more information. It's making that information usable: what should someone inspect, what supports the recommendation, and what needs a human decision?
+
+I built Video Insight Bundler to explore that workflow using video analysis. My central design choice was to keep recorded signals, source references, and human decisions separate, but connected. Video is the example here; the broader design problem is connecting evidence to decisions people can inspect. This demonstration uses saved analysis, with original media excluded.
+
+Here, we're reviewing the opening fifteen seconds of one example video. The timeline locates the segment, and its context shows what the analysis recorded. I'll compare those signals with the linked recommendation: inspect whether the opening needs a clearer transition or a pacing review. These signals guide inspection, not conclusions. Before editing, I'd check the original media and decide whether the opening's structure is intentional. The workflow lets me document that question and its next step.
+
+For this example, I leave the editorial decision open and record what I checked, the uncertainty, and what to inspect next. Now the next reviewer has an explicit starting point. This static version requires an external save; notes don't autosave. I can export the note and checklist together, keeping the review record alongside the package. That makes the handoff inspectable, even while the editorial decision remains open.
+
+Video is the example, not the limit of the approach. A similar workflow could be designed around research documents, engineering evidence, or internal review processes. For a client, I'd start with the decision, the available inputs, and the constraints, then determine what to build, how it should connect to existing tools, and how we'd evaluate whether it is useful.
+
+If your team has scattered analysis, or an idea that needs to become a testable system, visit Correspondence matrices dot com to request a twenty-minute fit call. We'll discuss your goals, constraints, and the decision you need to make, and identify a practical next step.

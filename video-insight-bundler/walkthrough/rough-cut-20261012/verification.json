@@ -1,0 +1,115 @@
+{
+  "full_av_decode_passed": true,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "duration_seconds": 165.895,
+  "word_alignment_verified": true,
+  "subtitle_cues": 35,
+  "caption_bounds_verified": true,
+  "representative_frames_extracted": 10,
+  "manual_notes_copy_verified": true,
+  "quiet_intervals_over_0_8_seconds": [
+    {
+      "start": 8.68,
+      "duration": 0.9800000000000004
+    },
+    {
+      "start": 12.58,
+      "duration": 1.0199999999999996
+    },
+    {
+      "start": 22.02,
+      "duration": 1.0
+    },
+    {
+      "start": 27.8,
+      "duration": 0.9600000000000009
+    },
+    {
+      "start": 36.44,
+      "duration": 0.9600000000000009
+    },
+    {
+      "start": 44.28,
+      "duration": 0.9799999999999969
+    },
+    {
+      "start": 50.16,
+      "duration": 1.0200000000000031
+    },
+    {
+      "start": 55.64,
+      "duration": 0.9799999999999969
+    },
+    {
+      "start": 61.92,
+      "duration": 0.9799999999999969
+    },
+    {
+      "start": 70.52,
+      "duration": 0.960000000000008
+    },
+    {
+      "start": 74.82,
+      "duration": 1.0200000000000102
+    },
+    {
+      "start": 81.72,
+      "duration": 0.980000000000004
+    },
+    {
+      "start": 86.3,
+      "duration": 1.0
+    },
+    {
+      "start": 95.84,
+      "duration": 0.9799999999999898
+    },
+    {
+      "start": 99.98,
+      "duration": 1.0
+    },
+    {
+      "start": 105.72,
+      "duration": 0.980000000000004
+    },
+    {
+      "start": 112.18,
+      "duration": 0.9799999999999898
+    },
+    {
+      "start": 118.4,
+      "duration": 1.0
+    },
+    {
+      "start": 122.86,
+      "duration": 0.980000000000004
+    },
+    {
+      "start": 130.8,
+      "duration": 0.9799999999999898
+    },
+    {
+      "start": 145.38,
+      "duration": 0.960000000000008
+    },
+    {
+      "start": 157.02,
+      "duration": 1.0
+    },
+    {
+      "start": 165.02,
+      "duration": 0.875
+    }
+  ],
+  "longest_quiet_interval_seconds": 1.0200000000000102,
+  "sha256": "faf1e8bfaae2ba6adbfc91b95f0475f5a1385157784c6e875004935fcbfe80ad",
+  "video_bytes": 9170742,
+  "visual_review_pending": false,
+  "representative_frame_visual_review_passed": true
+}

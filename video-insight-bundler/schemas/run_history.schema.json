@@ -1,0 +1,1 @@
+{"type":"object","required":["history_schema_version","latest_run_id","snapshot_count","runs"],"properties":{"history_schema_version":{"type":"string"},"generated_at_utc":{"type":"string"},"source_sha256":{"type":["string","null"]},"latest_run_id":{"type":"string"},"snapshot_count":{"type":"integer"},"runs":{"type":"array","items":{"type":"object"}}}}

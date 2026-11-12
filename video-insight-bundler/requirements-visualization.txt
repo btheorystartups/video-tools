@@ -1,0 +1,15 @@
+matplotlib
+plotly
+pandas
+numpy
+opencv-python
+scipy
+networkx
+pyvis
+jinja2
+seaborn
+scikit-learn
+wordcloud
+pillow
+librosa
+textstat

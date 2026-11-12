@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "evidence_consensus.schema.json",
+  "title": "Evidence Consensus",
+  "type": "object",
+  "required": ["analysis_status", "method", "consensus_items", "summary", "limitations"],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "consensus_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["segment_id", "transition_id", "consensus_score", "consensus_class", "supporting_modalities", "conflicting_modalities", "evidence_strength", "continuity_confidence", "false_positive_probability"]
+      }
+    },
+    "summary": {"type": "object"},
+    "limitations": {"type": "array"}
+  },
+  "additionalProperties": true
+}

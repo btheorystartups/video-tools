@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "release_readiness_report.schema.json",
+  "title": "Release Readiness Report",
+  "type": "object",
+  "required": ["release_readiness_score", "release_readiness_class", "score_components", "score_weights", "blocking_issues", "strongest_evidence", "weakest_evidence", "limitations"],
+  "properties": {
+    "release_readiness_score": {"type": "number"},
+    "release_readiness_class": {"type": "string", "enum": ["not_ready", "review_ready", "dry_run_ready", "release_candidate"]},
+    "score_components": {"type": "object"},
+    "score_weights": {"type": "object"},
+    "blocking_issues": {"type": "array"},
+    "strongest_evidence": {"type": "array"},
+    "weakest_evidence": {"type": "array"},
+    "limitations": {"type": "array"}
+  },
+  "additionalProperties": true
+}

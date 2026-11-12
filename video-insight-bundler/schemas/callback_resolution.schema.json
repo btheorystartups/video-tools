@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "callback_resolution.schema.json",
+  "title": "Callback Resolution",
+  "type": "object",
+  "required": ["analysis_status", "method", "callback_pairs", "setup_payoff_latency", "unresolved_setups", "weak_callback_evidence", "callback_strength_score", "payoff_quality_score", "limitations"],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "callback_pairs": {"type": "array", "items": {"type": "object", "required": ["callback_id", "setup_segment_id", "payoff_segment_id", "latency_segments", "resolution_confidence"]}},
+    "setup_payoff_latency": {"type": "array", "items": {"type": "object"}},
+    "unresolved_setups": {"type": "array", "items": {"type": "object"}},
+    "weak_callback_evidence": {"type": "array", "items": {"type": "object"}},
+    "callback_strength_score": {"type": "number"},
+    "payoff_quality_score": {"type": "number"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "branch_comparison_report.schema.json",
+  "title": "Branch Comparison Report",
+  "type": "object",
+  "required": ["comparison_basis", "branches", "recommended_branch"],
+  "properties": {
+    "comparison_basis": {"type": "string"},
+    "branches": {"type": "array"},
+    "recommended_branch": {"type": "object"}
+  },
+  "additionalProperties": true
+}

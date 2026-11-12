@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "reference_validation.schema.json",
+  "title": "Reference Validation",
+  "type": "object",
+  "required": ["valid_reference_count", "invalid_reference_count", "orphan_reference_count", "unresolved_reference_paths", "stale_reference_summary", "reference_integrity_score"],
+  "properties": {
+    "validation_status": {"type": "string"},
+    "valid_reference_count": {"type": "number"},
+    "invalid_reference_count": {"type": "number"},
+    "orphan_reference_count": {"type": "number"},
+    "unresolved_reference_paths": {"type": "array"},
+    "stale_reference_summary": {"type": "object"},
+    "reference_integrity_score": {"type": "number"}
+  },
+  "additionalProperties": true
+}

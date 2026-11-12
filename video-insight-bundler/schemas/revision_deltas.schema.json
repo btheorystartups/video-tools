@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "revision_deltas.schema.json",
+  "title": "Revision Deltas",
+  "type": "object",
+  "required": ["deltas"],
+  "properties": {
+    "deltas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["delta_id", "from_revision_id", "to_revision_id", "candidate_id", "changed_fields", "score_delta", "release_readiness_delta", "mutation_safety_delta"]
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "transition_confidence.schema.json",
+  "title": "Transition Confidence",
+  "type": "object",
+  "required": ["analysis_status", "method", "transitions", "summary", "limitations"],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "transitions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["transition_id", "confidence_score", "confidence_class", "supporting_evidence", "conflicting_evidence", "likely_true_transition", "likely_false_positive", "continuity_override", "evidence_weights", "reasoning_summary"]
+      }
+    },
+    "summary": {"type": "object"},
+    "limitations": {"type": "array"}
+  },
+  "additionalProperties": true
+}

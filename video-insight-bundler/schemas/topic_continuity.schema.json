@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Topic Continuity",
+  "type": "object",
+  "required": [
+    "analysis_status",
+    "method",
+    "segment_topic_vectors",
+    "rolling_window_topics",
+    "topic_bridge_terms",
+    "repeated_concepts",
+    "topic_reentry_points",
+    "abrupt_topic_shifts",
+    "unsupported_topic_shifts",
+    "topic_continuity_score",
+    "topic_drift_explanation",
+    "limitations"
+  ],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "segment_topic_vectors": {"type": "array", "items": {"type": "object"}},
+    "rolling_window_topics": {"type": "array", "items": {"type": "object"}},
+    "topic_bridge_terms": {"type": "array", "items": {"type": "object"}},
+    "repeated_concepts": {"type": "array", "items": {"type": "object"}},
+    "topic_reentry_points": {"type": "array", "items": {"type": "object"}},
+    "abrupt_topic_shifts": {"type": "array", "items": {"type": "object"}},
+    "unsupported_topic_shifts": {"type": "array", "items": {"type": "object"}},
+    "topic_continuity_score": {"type": "number"},
+    "topic_drift_explanation": {"type": "string"},
+    "source_topic_drift_score": {"type": ["number", "null"]},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  }
+}

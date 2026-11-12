@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "semantic_readiness.schema.json",
+  "title": "Semantic Readiness",
+  "type": "object",
+  "required": ["semantic_ready_components", "nonsemantic_authority_components", "future_embedding_hook_points", "future_paraphrase_hook_points", "semantic_risk_summary", "semantic_boundary_rules", "limitations"],
+  "properties": {
+    "validation_status": {"type": "string"},
+    "semantic_ready_components": {"type": "array"},
+    "nonsemantic_authority_components": {"type": "array"},
+    "future_embedding_hook_points": {"type": "array"},
+    "future_paraphrase_hook_points": {"type": "array"},
+    "semantic_risk_summary": {"type": "array"},
+    "semantic_boundary_rules": {"type": "object"},
+    "limitations": {"type": "array"}
+  },
+  "additionalProperties": true
+}

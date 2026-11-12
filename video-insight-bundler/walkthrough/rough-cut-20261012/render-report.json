@@ -1,0 +1,65 @@
+{
+  "duration_seconds": 165.895,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "narration": "local scratch narration, not Brian voice",
+  "voice": "Microsoft David Desktop",
+  "subtitle_cues": 35,
+  "shots": [
+    {
+      "frame": "01-problem",
+      "start": 0,
+      "end": 23.009999999999998
+    },
+    {
+      "frame": "02-design",
+      "start": 23.009999999999998,
+      "end": 51.144999999999996
+    },
+    {
+      "frame": "03-timeline",
+      "start": 51.144999999999996,
+      "end": 59.16
+    },
+    {
+      "frame": "04-context",
+      "start": 59.16,
+      "end": 62.894999999999996
+    },
+    {
+      "frame": "05-signals",
+      "start": 62.894999999999996,
+      "end": 66.365
+    },
+    {
+      "frame": "06-recommendation",
+      "start": 66.365,
+      "end": 87.27
+    },
+    {
+      "frame": "07-note",
+      "start": 87.27,
+      "end": 106.69
+    },
+    {
+      "frame": "08-export",
+      "start": 106.69,
+      "end": 119.405
+    },
+    {
+      "frame": "09-possibilities",
+      "start": 119.405,
+      "end": 146.34
+    },
+    {
+      "frame": "10-invitation",
+      "start": 146.34,
+      "end": 165.895
+    }
+  ],
+  "capture_kind": "actual CUA browser stills with editorial crops and restrained zoom; not a continuous screen recording",
+  "external_services_used": false
+}

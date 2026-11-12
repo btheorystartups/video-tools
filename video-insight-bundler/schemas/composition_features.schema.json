@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "composition_features.schema.json",
+  "title": "Composition Features",
+  "type": "object",
+  "required": ["analysis_status", "method", "frame_features", "segment_summaries", "summary", "limitations"],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "frame_features": {"type": "array"},
+    "segment_summaries": {"type": "array"},
+    "summary": {"type": "object"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

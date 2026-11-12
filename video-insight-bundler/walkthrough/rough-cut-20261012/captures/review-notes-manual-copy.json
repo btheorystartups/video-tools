@@ -1,0 +1,15 @@
+{
+  "page": "Five-minute evidence walkthrough",
+  "saved_at": "2026-10-12T16:21:49.051Z",
+  "notes": "Decision: Leave open pending original-media review.\nEvidence checked: Opening segment 0.00–14.64 sec, recorded signals, and the linked recommendation.\nUncertainty: The recorded signals do not establish whether the opening is intentionally structured this way.\nNext action: Watch the original opening and decide whether to preserve it or test a clearer transition.",
+  "checklist": [
+    {
+      "item": "Segment and evidence inspected",
+      "completed": true
+    },
+    {
+      "item": "Recommendation accepted, rejected, or left open with reasons",
+      "completed": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "visual_structure.schema.json",
+  "title": "Visual Structure Summary",
+  "type": "object",
+  "required": ["analysis_status", "method", "shot_boundary_count", "visual_continuity_score", "visual_evidence_completeness", "visual_boundary_alignment_quality", "visual_contradiction_pressure", "visual_reset_support", "limitations"],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "shot_boundary_count": {"type": "integer"},
+    "visual_continuity_score": {"type": ["number", "null"]},
+    "visual_evidence_completeness": {"type": "number"},
+    "visual_boundary_alignment_quality": {"type": "number"},
+    "visual_contradiction_pressure": {"type": ["number", "null"]},
+    "visual_reset_support": {"type": "number"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,48 @@
+{
+  "taxonomy_version": "0.1.0",
+  "description": "Teaching and communication style categories inferred from transcript markers.",
+  "categories": [
+    {
+      "id": "conceptual_teaching",
+      "label": "Conceptual Teaching",
+      "description": "Defines ideas and connects principles.",
+      "markers": ["concept", "principle", "means", "definition", "framework", "idea", "understand"],
+      "pacing": {"min_wpm": 90, "max_wpm": 165}
+    },
+    {
+      "id": "procedural_teaching",
+      "label": "Procedural Teaching",
+      "description": "Shows steps, process, and execution order.",
+      "markers": ["step", "first", "next", "then", "finally", "process", "workflow", "checklist"],
+      "pacing": {"min_wpm": 95, "max_wpm": 170}
+    },
+    {
+      "id": "socratic_questioning",
+      "label": "Socratic Questioning",
+      "description": "Uses questions to test assumptions or guide reflection.",
+      "markers": ["why", "what if", "how would", "question", "assume", "what happens"],
+      "pacing": {"min_wpm": 80, "max_wpm": 160}
+    },
+    {
+      "id": "case_based",
+      "label": "Case-Based Explanation",
+      "description": "Uses examples, scenarios, and concrete instances.",
+      "markers": ["for example", "case", "scenario", "imagine", "suppose", "instance", "story"],
+      "pacing": {"min_wpm": 95, "max_wpm": 180}
+    },
+    {
+      "id": "argumentative",
+      "label": "Argumentative",
+      "description": "Builds claims through reasons, objections, and conclusions.",
+      "markers": ["because", "therefore", "however", "objection", "claim", "evidence", "conclusion"],
+      "pacing": {"min_wpm": 100, "max_wpm": 190}
+    },
+    {
+      "id": "coaching_feedback",
+      "label": "Coaching Feedback",
+      "description": "Improves behavior through direct advice and corrective framing.",
+      "markers": ["try", "practice", "improve", "feedback", "mistake", "adjust", "habit"],
+      "pacing": {"min_wpm": 95, "max_wpm": 190}
+    }
+  ]
+}

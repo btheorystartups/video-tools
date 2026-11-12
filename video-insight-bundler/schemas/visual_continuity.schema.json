@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "visual_continuity.schema.json",
+  "title": "Visual Continuity",
+  "type": "object",
+  "required": ["analysis_status", "method", "visual_change_intensity", "visual_stability_regions", "abrupt_visual_transitions", "sustained_visual_similarity", "visual_pacing", "visual_reset_candidates", "visual_continuity_score", "summary", "limitations"],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "visual_change_intensity": {"type": "array"},
+    "visual_stability_regions": {"type": "array"},
+    "abrupt_visual_transitions": {"type": "array"},
+    "sustained_visual_similarity": {"type": "object"},
+    "visual_pacing": {"type": "object"},
+    "visual_reset_candidates": {"type": "array"},
+    "visual_continuity_score": {"type": "number"},
+    "summary": {"type": "object"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,36 @@
+{
+  "profile_name": "default_local_first",
+  "sample_interval_sec": 30.0,
+  "segment_target_duration_sec": 45.0,
+  "pause_segment_break_sec": 1.5,
+  "visual_structure": {
+    "shot_sampling_mode": "normal",
+    "shot_sample_interval_sec": 2.0,
+    "shot_boundary_threshold": 0.46,
+    "shot_boundary_mode_thresholds": {
+      "coarse": 0.52,
+      "normal": 0.46,
+      "dense": 0.42
+    },
+    "shot_boundary_score_weights": {
+      "histogram_difference": 0.3,
+      "mean_absolute_pixel_difference": 0.32,
+      "edge_difference": 0.18,
+      "brightness_contrast_change": 0.2
+    },
+    "boundary_alignment_window_sec": 3.0,
+    "max_shot_samples": 900
+  },
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "device": "cpu",
+    "compute_type": "int8",
+    "language": null
+  },
+  "notes": [
+    "This profile avoids cloud APIs.",
+    "Install faster-whisper to enable local transcription.",
+    "Scene segmentation and emotional arc analysis are transparent heuristics."
+  ]
+}

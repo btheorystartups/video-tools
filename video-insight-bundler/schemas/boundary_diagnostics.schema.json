@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Boundary Diagnostics",
+  "type": "object",
+  "required": ["analysis_status", "method", "boundaries", "summary", "limitations"],
+  "properties": {
+    "analysis_status": {"type": "string"},
+    "method": {"type": "string"},
+    "boundaries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "boundary_id",
+          "from_segment_id",
+          "to_segment_id",
+          "transcript_pause_evidence",
+          "sentence_completion_evidence",
+          "topic_shift_evidence",
+          "rhetorical_shift_evidence",
+          "acoustic_shift_evidence",
+          "pacing_shift_evidence",
+          "emotional_shift_evidence",
+          "consensus_support",
+          "contradiction_count",
+          "likely_good_boundary",
+          "likely_review_boundary",
+          "suggested_human_review_action"
+        ],
+        "properties": {
+          "boundary_id": {"type": "string"},
+          "from_segment_id": {"type": "string"},
+          "to_segment_id": {"type": "string"},
+          "transcript_pause_evidence": {"type": "object"},
+          "sentence_completion_evidence": {"type": "object"},
+          "topic_shift_evidence": {"type": "object"},
+          "rhetorical_shift_evidence": {"type": "object"},
+          "acoustic_shift_evidence": {"type": "object"},
+          "pacing_shift_evidence": {"type": "object"},
+          "emotional_shift_evidence": {"type": "object"},
+          "consensus_support": {"type": "number"},
+          "contradiction_count": {"type": "integer"},
+          "likely_good_boundary": {"type": "boolean"},
+          "likely_review_boundary": {"type": "boolean"},
+          "suggested_human_review_action": {"type": "string"}
+        }
+      }
+    },
+    "summary": {"type": "object"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  }
+}
