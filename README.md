@@ -15,7 +15,7 @@ Local-first video analysis and editorial review tools by Brian.
 | **Keyword Clusters** | Recurring vocabulary and related groups of transcript segments. |
 | **Rhetorical Modes** | Patterns of explanation, examples, contrast, questions, and audience address. |
 
-Read the [capabilities and demonstrated output](CAPABILITIES.md) for methods, practical uses, output filenames, and limitations.
+See all six original example graphs in the [illustrated capability writeup](CAPABILITIES.md), with methods, practical uses, output filenames, and limitations.
 
 Watch the [portfolio walkthrough](https://www.correspondencematrices.com/work/video-insight-bundler).
 

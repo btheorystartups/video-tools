@@ -4,7 +4,13 @@ Video Insight Bundler turns a recording into a navigable evidence package. It co
 
 ## Six complementary views
 
+The six images below are saved outputs from the same 145-second analysis featured in the portfolio walkthrough. Click any image to inspect it at full size. [Image provenance and source hashes](examples/video-insight-bundler/README.md).
+
 ### Emotional Arc
+
+![Emotional Arc graph from the demonstrated 145-second video excerpt](examples/video-insight-bundler/emotional-arc.png)
+
+*Lexical and pacing-derived energy, valence, certainty, and intensity across the excerpt. Scores are editorial proxies requiring human interpretation.*
 
 Shows segment-level **energy, valence, certainty, intensity, and dominant tone**. The implementation counts transparent lexical markers and combines some of them with speaking rate. Example tone categories include analytical, instructional, motivational, critical, and reflective.
 
@@ -16,6 +22,10 @@ Outputs: `emotional_arc.json`, `graphs/emotional_arc.png`, `visualizations/emoti
 
 ### Pacing Curve
 
+![Pacing Curve graph from the demonstrated 145-second video excerpt](examples/video-insight-bundler/pacing-curve.png)
+
+*Transcript-derived words per minute. Short timestamp intervals can produce large spikes; the shaded range is a configured guide, not an audience-tested optimum.*
+
 Plots speaking rate from transcript word counts and timestamped intervals. Related outputs summarize rate distributions, transcript density, and gaps between transcript segments.
 
 Use it to find abrupt accelerations, slower reflective passages, unusually short intervals, and possible pauses. Pair the curve with the transcript and playback before deciding whether to tighten or preserve a passage.
@@ -25,6 +35,10 @@ Use it to find abrupt accelerations, slower reflective passages, unusually short
 Outputs: `audio_features.json`, `graphs/pacing_curve.png`, `graphs/speaking_rate_distribution.png`, `graphs/pause_distribution.png`, `visualizations/pacing_analysis.html`.
 
 ### Acoustic Energy
+
+![Acoustic Energy graph from the demonstrated 145-second video excerpt](examples/video-insight-bundler/acoustic-energy.png)
+
+*RMS waveform energy over the 145-second excerpt. Peaks and quieter passages locate moments to listen to; they do not establish emotion.*
 
 Measures the sound waveform locally using librosa and NumPy. The analysis includes RMS energy over time, per-segment averages and variability, approximate quiet regions, contrasts between adjacent segments, and spectral summaries.
 
@@ -36,6 +50,10 @@ Outputs: `acoustic_features.json`, `graphs/acoustic_energy_curve.png`, `graphs/s
 
 ### Topic Timeline
 
+![Topic Timeline graph from the demonstrated 145-second video excerpt](examples/video-insight-bundler/topic-timeline.png)
+
+*Seven segment intervals labeled with prominent transcript terms. Some labels are more informative than others; compare them with the original words.*
+
 Shows the prominent terms associated with successive segments. With scikit-learn available, the tool uses local TF-IDF term weighting, cosine similarity between adjacent segments, and deterministic K-means clustering when enough segments exist. A frequency-keyword fallback is available.
 
 Use it to follow discussion structure, locate a subject, inspect a topic transition, and compare repeated concepts across passages.
@@ -46,6 +64,10 @@ Outputs: `topic_analysis.json`, `graphs/topic_timeline.png`, `graphs/topic_shift
 
 ### Keyword Clusters
 
+![Keyword Clusters graph from the demonstrated 145-second video excerpt](examples/video-insight-bundler/keyword-clusters.png)
+
+*Frequent keywords grouped into first-letter buckets. These displayed groups are alphabetical, not semantic clusters.*
+
 Provides a compact view of salient transcript vocabulary alongside related topic, keyword-importance, repetition, and word-cloud views. The current graph groups the 24 most frequent keywords by their first letter and sums their counts; the topic-analysis JSON separately records TF-IDF segment clusters when available.
 
 Use it to see recurring language, identify terms to search in the transcript, and check whether the recording spends attention on its intended subject. Inspect the topic cluster records to see which segments are grouped together.
@@ -55,6 +77,10 @@ Use it to see recurring language, identify terms to search in the transcript, an
 Outputs: `graphs/keyword_clusters.png`, `graphs/keyword_importance.png`, `graphs/concept_repetition.png`, `graphs/wordcloud.png`, and keyword/cluster records in `topic_analysis.json`.
 
 ### Rhetorical Modes
+
+![Rhetorical Modes graph from the demonstrated 145-second video excerpt](examples/video-insight-bundler/rhetorical-mode-timeline.png)
+
+*Marker-based audience-address, explanatory, and self-reference intervals in this example. Labels are review cues rather than inferred intent.*
 
 Maps marker-based communication patterns across segments: instruction, examples, explanation, contrast, audience address, abstract reflection, concrete action, and other detected categories. Related views summarize question density, claim/example balance, and abstract/concrete language.
 

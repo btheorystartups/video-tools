@@ -28,3 +28,7 @@ The local full generated analysis directory could not be read in this session. I
 - The original larger repository's tests outside this folder are not included by this folder-only extraction. No new runtime validation or production-readiness claim is made.
 
 A root .gitignore excludes common local media, generated outputs, environments, and secret-file patterns from future accidental additions. Review any intended example dataset or portable package separately before publishing it.
+
+## Example graph addition
+
+Six original example PNGs from the website's preserved production-source commit `b052063a17531ae8353b19a80feee7a6d26a0fa6` were added under `examples/video-insight-bundler/` and embedded in CAPABILITIES.md. Each copied image was visually inspected, and its Git blob SHA was matched to the source. See the [image provenance record](examples/video-insight-bundler/README.md). The original extracted code folder remains unchanged. This addition does not rerun the analysis or add raw media.
